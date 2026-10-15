@@ -1,0 +1,5 @@
+PDF page -> raw rows (1-based, excluding header)
+page 1: rows 1-16
+page 2: rows 17-47
+page 3: rows 48-78
+page 4: rows 79-98

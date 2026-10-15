@@ -1,0 +1,49 @@
+{
+"targets": {
+ "Income": {"amount": "3280.00", "why": "Two Cedar Lane Design paychecks (Sep 4 and Sep 18)"},
+ "Housing": {"amount": "975.00", "why": "Rent unchanged"},
+ "Utilities": {"amount": "92.18", "why": "Electric at this month's cost; roommate's $60 share counted separately"},
+ "Phone & Internet": {"amount": "120.00", "why": "Phone and internet unchanged"},
+ "Insurance": {"amount": "123.45", "why": "Auto insurance unchanged"},
+ "Car Payment": {"amount": "259.00", "why": "Auto loan unchanged"},
+ "Gas & Transit": {"amount": "109.67", "why": "Same as last month"},
+ "Rideshare": {"amount": "41.50", "why": "Same as last month"},
+ "Groceries": {"amount": "400.00", "why": "Up about $32 to cover more meals at home"},
+ "Delivery & Takeout": {"amount": "305.03", "why": "Half as many delivery orders"},
+ "Restaurants & Coffee": {"amount": "137.17", "why": "Half as many Starbucks stops; sit-down meals kept"},
+ "Subscriptions": {"amount": "124.88", "why": "Drop standalone Hulu if your Disney+ bundle includes it, one of two delivery passes, and Paramount+ for now"},
+ "Shopping": {"amount": "180.00", "why": "Down from $327; Amazon and Target were the biggest flexible line after delivery"},
+ "Health & Fitness": {"amount": "15.00", "why": "Gym kept"},
+ "Personal Care": {"amount": "32.00", "why": "Haircut kept"},
+ "Entertainment": {"amount": "50.00", "why": "Fun money kept, slightly above last month"},
+ "Travel": {"amount": "0.00", "why": "Unused"},
+ "Kids & Pets": {"amount": "0.00", "why": "Unused"},
+ "Gifts & Giving": {"amount": "0.00", "why": "Unused"},
+ "Debt Payments": {"amount": "125.00", "why": "Student loan unchanged"},
+ "Bank Fees & Interest": {"amount": "12.00", "why": "Maintenance fee stays until you confirm how to waive it; ATM, overdraft and NSF fees avoided"},
+ "Cash & ATM": {"amount": "60.00", "why": "One in-network withdrawal instead of two out-of-network"},
+ "Transfers": {"amount": "0.00", "why": "Excluded"},
+ "Other": {"amount": "85.00", "why": "The $85 online payment returned on Sep 28 may still be owed; set aside to pay it"},
+ "Savings": {"amount": "33.12", "why": "Everything left goes to the buffer first"}
+},
+"buffer": "33.12",
+"buffer_goal": "500.00",
+"buffer_current": "-125.35",
+"leaks": [
+ {"what": "Overdraft and NSF fees", "lines": ["S1:103", "S1:104"], "share": "1", "kind": "observed", "action": "A buffer of a few hundred dollars stops these. Ask the bank whether they will refund a first-time overdraft fee.", "where": "Cedar Kite Bank"},
+ {"what": "Out-of-network ATM fees", "lines": ["S1:42", "S1:43", "S1:86", "S1:87"], "share": "1", "kind": "observed", "action": "Use your bank's ATMs or get cash back at the grocery store.", "where": "Your bank's ATM locator"},
+ {"what": "Hulu, may be in Disney+ bundle", "lines": ["S1:14"], "share": "1", "kind": "recurring", "action": "Check whether your Disney+ bundle includes Hulu. If it does, cancel the standalone Hulu.", "where": "Hulu > Account > Cancel, or the original biller"},
+ {"what": "Two delivery passes", "lines": ["S1:50"], "share": "1", "kind": "recurring", "action": "You pay for both DashPass and Uber One. Keep one; the plan drops DashPass since Uber One also covers rides.", "where": "DoorDash app > Account > DashPass > End subscription"},
+ {"what": "Paramount+, sixth video/music plan", "lines": ["S1:79"], "share": "1", "kind": "recurring", "action": "Pause it and rotate back in for a show you want.", "where": "Paramount+ > Account > Cancel subscription, or the original biller"},
+ {"what": "Monthly maintenance fee", "lines": ["S1:107"], "share": "1", "kind": "check", "action": "Ask the bank what waives this fee on your account.", "where": "Cedar Kite Bank"},
+ {"what": "Target, same amount twice", "lines": ["S1:64", "S1:65"], "share": "0.5", "kind": "check", "action": "Two $28.74 charges on Sep 18. Check your receipt; dispute one if it was charged twice.", "where": "Target receipt, then your bank"}
+],
+"assumptions": [
+ "Keep the Disney+ bundle; cancel standalone Hulu only if the bundle includes it.",
+ "Keep Uber One, cancel DashPass. Swap them if you prefer DoorDash.",
+ "Pause Paramount+; keep Netflix, Disney+, YouTube Premium, Spotify, Audible, ChatGPT Plus, Amazon Prime, Apple and Planet Fitness.",
+ "The $85 online payment returned on Sep 28 is treated as still owed.",
+ "The account ended at -$125.35, so the buffer starts below zero; savings go there first.",
+ "Paydays were Sep 4 and Sep 18. Rent follows the first paycheck; loans, insurance and utilities follow the second."
+]
+}

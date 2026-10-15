@@ -1,0 +1,273 @@
+{
+ "targets": {
+  "Income": {
+   "amount": "3280.00",
+   "why": "Two Cedar Lane Design paychecks ($1,640 each). Roommate's $60 Venmo is a reimbursement, not income."
+  },
+  "Housing": {
+   "amount": "975.00",
+   "why": "Rent unchanged."
+  },
+  "Utilities": {
+   "amount": "92.18",
+   "why": "Electric bill at this month's cost (roommate reimburses part of it)."
+  },
+  "Phone & Internet": {
+   "amount": "120.00",
+   "why": "Phone and home internet unchanged."
+  },
+  "Insurance": {
+   "amount": "123.45",
+   "why": "Auto insurance unchanged."
+  },
+  "Car Payment": {
+   "amount": "259.00",
+   "why": "Auto loan unchanged."
+  },
+  "Health & Fitness": {
+   "amount": "15.00",
+   "why": "Planet Fitness unchanged."
+  },
+  "Debt Payments": {
+   "amount": "125.00",
+   "why": "Student loan minimum unchanged."
+  },
+  "Gas & Transit": {
+   "amount": "109.67",
+   "why": "Gas kept at this month's level."
+  },
+  "Rideshare": {
+   "amount": "41.50",
+   "why": "Two Uber rides; kept as is."
+  },
+  "Groceries": {
+   "amount": "395.00",
+   "why": "Up about $27 to cook some of the meals that used to be delivered."
+  },
+  "Delivery & Takeout": {
+   "amount": "305.03",
+   "why": "Half of September's 18 orders ($610.06): about 2 a week instead of 4."
+  },
+  "Restaurants & Coffee": {
+   "amount": "120.00",
+   "why": "Starbucks 22 times ($109.11); brewing at home about half the days, eating out a little less."
+  },
+  "Subscriptions": {
+   "amount": "117.88",
+   "why": "Drop standalone Hulu, YouTube Premium and DashPass; keep the rest pending checks."
+  },
+  "Shopping": {
+   "amount": "170.00",
+   "why": "Amazon ($269.66 over 5 orders) and Target ($57.48); about half, and wait 48 hours on non-essentials."
+  },
+  "Personal Care": {
+   "amount": "32.00",
+   "why": "Haircut kept."
+  },
+  "Entertainment": {
+   "amount": "44.50",
+   "why": "Movies and bowling kept: guilt-free fun."
+  },
+  "Bank Fees & Interest": {
+   "amount": "12.00",
+   "why": "ATM, overdraft and NSF fees avoidable; $12 maintenance fee kept until waiver terms are confirmed."
+  },
+  "Cash & ATM": {
+   "amount": "80.00",
+   "why": "Same cash, from the bank's own ATMs."
+  },
+  "Travel": {
+   "amount": "0.00",
+   "why": "Unused."
+  },
+  "Kids & Pets": {
+   "amount": "0.00",
+   "why": "Unused."
+  },
+  "Gifts & Giving": {
+   "amount": "0.00",
+   "why": "Unused."
+  },
+  "Transfers": {
+   "amount": "0.00",
+   "why": "Excluded."
+  },
+  "Other": {
+   "amount": "85.00",
+   "why": "Retry the $85 online payment that was returned on 9/28 once you confirm who it was for."
+  },
+  "Savings": {
+   "amount": "57.79",
+   "why": "Everything left goes to the buffer first, to climb out of the -$125.35 balance and stop overdraft fees."
+  }
+ },
+ "buffer": "57.79",
+ "buffer_goal": "500.00",
+ "buffer_current": "-125.35",
+ "leaks": [
+  {
+   "what": "Hulu billed separately next to the Disney+ Bundle, which may already include Hulu",
+   "lines": [
+    "S1:6"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Cancel standalone Hulu if your bundle includes it",
+   "where": "Hulu > Account > Cancel your subscription"
+  },
+  {
+   "what": "Two music services: YouTube Premium (includes YouTube Music) and Spotify",
+   "lines": [
+    "S1:20"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Keep one; this plan keeps Spotify and drops YouTube Premium",
+   "where": "Google Play > Payments & subscriptions > Subscriptions, or youtube.com/paid_memberships"
+  },
+  {
+   "what": "Two delivery passes: DoorDash DashPass and Uber One",
+   "lines": [
+    "S1:42"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Keep one; this plan drops DashPass",
+   "where": "DoorDash app > Account > DashPass > End subscription"
+  },
+  {
+   "what": "Food delivery: 18 orders, about 4 a week",
+   "lines": [
+    "S1:5",
+    "S1:11",
+    "S1:14",
+    "S1:18",
+    "S1:23",
+    "S1:27",
+    "S1:30",
+    "S1:37",
+    "S1:44",
+    "S1:47",
+    "S1:54",
+    "S1:61",
+    "S1:65",
+    "S1:73",
+    "S1:82",
+    "S1:87",
+    "S1:90",
+    "S1:98"
+   ],
+   "share": "0.5",
+   "kind": "observed",
+   "action": "Cap delivery at about 2 orders a week",
+   "where": "Delete saved cards from one app, or set a weekly limit"
+  },
+  {
+   "what": "Daily Starbucks: 22 visits",
+   "lines": [
+    "S1:2",
+    "S1:4",
+    "S1:8",
+    "S1:10",
+    "S1:21",
+    "S1:22",
+    "S1:24",
+    "S1:26",
+    "S1:29",
+    "S1:39",
+    "S1:43",
+    "S1:46",
+    "S1:50",
+    "S1:53",
+    "S1:64",
+    "S1:68",
+    "S1:72",
+    "S1:75",
+    "S1:81",
+    "S1:89",
+    "S1:93",
+    "S1:97"
+   ],
+   "share": "0.5",
+   "kind": "observed",
+   "action": "Make coffee at home about half the days",
+   "where": "Habit"
+  },
+  {
+   "what": "Overdraft and NSF returned-item fees on 9/29",
+   "lines": [
+    "S1:95",
+    "S1:96"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Build the buffer and set a low-balance alert (e.g., under $100)",
+   "where": "Bank app > Alerts"
+  },
+  {
+   "what": "Out-of-network ATM fees: $6.50 per withdrawal, twice",
+   "lines": [
+    "S1:34",
+    "S1:35",
+    "S1:78",
+    "S1:79"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Use Cedar Kite Bank's own ATMs or get cash back at the grocery store",
+   "where": "Bank app > ATM locator"
+  },
+  {
+   "what": "Monthly maintenance fee $12",
+   "lines": [
+    "S1:99"
+   ],
+   "share": "1",
+   "kind": "check",
+   "action": "Check the waiver terms (often direct deposit or a minimum balance)",
+   "where": "Bank fee schedule"
+  },
+  {
+   "what": "Paramount+: fourth video streaming service (with Netflix, Disney+ Bundle and Hulu)",
+   "lines": [
+    "S1:71"
+   ],
+   "share": "1",
+   "kind": "check",
+   "action": "Keep it only if you watched it this month",
+   "where": "Paramount+ > Account > Cancel"
+  },
+  {
+   "what": "Apple charge $2.99, service not named on the statement",
+   "lines": [
+    "S1:28"
+   ],
+   "share": "1",
+   "kind": "check",
+   "action": "See which subscription it is",
+   "where": "iPhone Settings > your name > Subscriptions (or iCloud > Manage Plan if it's iCloud+)"
+  },
+  {
+   "what": "Two identical Target charges of $28.74 on 9/18",
+   "lines": [
+    "S1:56",
+    "S1:57"
+   ],
+   "share": "1",
+   "kind": "check",
+   "action": "Check your receipts; if only one purchase, dispute the other with Target or the bank",
+   "where": "Target receipts / bank app dispute"
+  }
+ ],
+ "assumptions": [
+  "Your Disney+ Bundle includes Hulu; if it doesn't, keep Hulu and add $11.99 back to Subscriptions.",
+  "You keep Spotify and cancel YouTube Premium (swap if you prefer YouTube).",
+  "You keep Uber One and cancel DashPass.",
+  "Delivery drops to about 2 orders a week and Starbucks to about half the days; yearly figures repeat September's pattern, they are not guaranteed savings.",
+  "The $85 online payment returned on 9/28 is a bill still owed; the payee isn't shown, so confirm who it was for. It's budgeted once under Other.",
+  "The $12 maintenance fee stays until you confirm a waiver.",
+  "Overdraft/NSF fees stop only once the balance stays positive; the account starts October at -$125.35.",
+  "The roommate's $60 utilities reimbursement is treated as a transfer, not income.",
+  "Paychecks land on the 4th and 18th, but rent ($975) leaves on the 5th and loans/insurance/bills around the 19th-25th; the balance ran down to $2.52 before the 9/18 paycheck."
+ ]
+}

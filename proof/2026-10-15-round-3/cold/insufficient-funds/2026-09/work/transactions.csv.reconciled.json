@@ -1,0 +1,26 @@
+{
+  "sha256": "a934f0a491c6a5670bddebf3e2334795b63a3629f4815eccf101e62d43dc0da5",
+  "sources": {
+    "S1": {
+      "count": 64,
+      "start": "2026-09-02",
+      "end": "2026-09-30",
+      "money_in": "172.99",
+      "money_out": "1795.06",
+      "net": "-1622.07",
+      "source": "S1",
+      "status": "unverified",
+      "checks": [],
+      "controls": {
+        "opening": null,
+        "closing": null,
+        "deposits": null,
+        "withdrawals": null
+      },
+      "note": "Your file has no balances to check against, so these totals come from the file itself. Paste the summary box from your statement (previous balance, payments, purchases, fees, interest, new balance) and I'll check every line against it."
+    }
+  },
+  "liability": {
+    "S1": true
+  }
+}

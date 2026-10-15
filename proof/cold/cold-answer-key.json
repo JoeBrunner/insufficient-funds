@@ -1,0 +1,63 @@
+{
+ "person": "FICTIONAL: Dana Whitfield, credit card ending 8823, September 2026",
+ "lines": 64,
+ "charges_total": "1795.06",
+ "credits_total": "172.99",
+ "by_category_net": {
+  "Bank Fees & Interest": "94.64",
+  "Delivery & Takeout": "320.96",
+  "Gas & Transit": "171.26",
+  "Groceries": "352.90",
+  "Health & Fitness": "47.61",
+  "Restaurants & Coffee": "223.85",
+  "Rideshare": "42.35",
+  "Shopping": "199.59",
+  "Subscriptions": "318.91",
+  "Transfers": "-150.00"
+ },
+ "planted_leaks": [
+  {
+   "what": "Spotify and Apple Music (two music services)",
+   "monthly": "10.99 or 11.99"
+  },
+  {
+   "what": "Streaming stack: Netflix, Peacock, Max, Paramount+",
+   "monthly": "58.96"
+  },
+  {
+   "what": "Noom free trial converted to an annual charge",
+   "amount": "209.00"
+  },
+  {
+   "what": "Double charge at Blue Door Coffee, same day",
+   "amount": "6.75"
+  },
+  {
+   "what": "Late fee",
+   "amount": "32.00"
+  },
+  {
+   "what": "Interest charge (carrying a balance)",
+   "amount": "61.47"
+  },
+  {
+   "what": "Foreign transaction fee",
+   "amount": "1.17"
+  },
+  {
+   "what": "Delivery",
+   "count": 12,
+   "total": "320.96",
+   "plus": "DashPass 9.99"
+  },
+  {
+   "what": "Starbucks most weekdays",
+   "count": 14
+  }
+ ],
+ "traps": [
+  "the payment is a Transfer, not income",
+  "the Amazon refund offsets a Shopping charge",
+  "purchases are positive in Debit and must come out as spending"
+ ]
+}

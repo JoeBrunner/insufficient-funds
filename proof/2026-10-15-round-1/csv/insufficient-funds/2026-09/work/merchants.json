@@ -1,0 +1,587 @@
+{
+  "STARBUCKS": {
+    "count": 22,
+    "total": "-109.11",
+    "money_out": "109.11",
+    "lines": [
+      "S1:10",
+      "S1:12",
+      "S1:16",
+      "S1:18",
+      "S1:29",
+      "S1:30",
+      "S1:32",
+      "S1:34",
+      "S1:37",
+      "S1:47",
+      "S1:51",
+      "S1:54",
+      "S1:58",
+      "S1:61",
+      "S1:72",
+      "S1:76",
+      "S1:80",
+      "S1:83",
+      "S1:89",
+      "S1:97",
+      "S1:101",
+      "S1:105"
+    ],
+    "descriptions": [
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/01",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/02",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/03",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/04",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/07",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/08",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/09",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/10",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/11",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/14",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/15",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/16",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/17",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/18",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/21",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/22",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/23",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/24",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/25",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/28",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/29",
+      "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/30"
+    ]
+  },
+  "NETFLIX.COM": {
+    "count": 1,
+    "total": "-19.99",
+    "money_out": "19.99",
+    "lines": [
+      "S1:11"
+    ],
+    "descriptions": [
+      "NETFLIX.COM"
+    ]
+  },
+  "DOORDASH": {
+    "count": 9,
+    "total": "-307.68",
+    "money_out": "307.68",
+    "lines": [
+      "S1:13",
+      "S1:22",
+      "S1:31",
+      "S1:38",
+      "S1:52",
+      "S1:62",
+      "S1:73",
+      "S1:90",
+      "S1:98"
+    ],
+    "descriptions": [
+      "DOORDASH*CHIPOTLE",
+      "DOORDASH*WINGSTOP",
+      "DOORDASH*CAVA"
+    ]
+  },
+  "HULU": {
+    "count": 1,
+    "total": "-11.99",
+    "money_out": "11.99",
+    "lines": [
+      "S1:14"
+    ],
+    "descriptions": [
+      "HULU"
+    ]
+  },
+  "DISNEY PLUS BUNDLE": {
+    "count": 1,
+    "total": "-12.99",
+    "money_out": "12.99",
+    "lines": [
+      "S1:15"
+    ],
+    "descriptions": [
+      "DISNEY PLUS BUNDLE"
+    ]
+  },
+  "CEDAR LANE DESIGN PAYROLL DIRECT DEP": {
+    "count": 2,
+    "total": "3280.00",
+    "money_out": "0.00",
+    "lines": [
+      "S1:17",
+      "S1:60"
+    ],
+    "descriptions": [
+      "CEDAR LANE DESIGN PAYROLL DIRECT DEP"
+    ]
+  },
+  "UBER EATS": {
+    "count": 9,
+    "total": "-302.38",
+    "money_out": "302.38",
+    "lines": [
+      "S1:19",
+      "S1:26",
+      "S1:35",
+      "S1:45",
+      "S1:55",
+      "S1:69",
+      "S1:81",
+      "S1:95",
+      "S1:106"
+    ],
+    "descriptions": [
+      "UBER *EATS"
+    ]
+  },
+  "ALDI": {
+    "count": 3,
+    "total": "-201.50",
+    "money_out": "201.50",
+    "lines": [
+      "S1:20",
+      "S1:63",
+      "S1:102"
+    ],
+    "descriptions": [
+      "POS DEBIT ALDI #0284 RALEIGH NC"
+    ]
+  },
+  "OAK COURT APTS RENT ACH": {
+    "count": 1,
+    "total": "-975.00",
+    "money_out": "975.00",
+    "lines": [
+      "S1:21"
+    ],
+    "descriptions": [
+      "OAK COURT APTS RENT ACH"
+    ]
+  },
+  "SHELL": {
+    "count": 3,
+    "total": "-109.67",
+    "money_out": "109.67",
+    "lines": [
+      "S1:23",
+      "S1:56",
+      "S1:91"
+    ],
+    "descriptions": [
+      "POS DEBIT SHELL #0328 RALEIGH NC"
+    ]
+  },
+  "VENMO CASHOUT ROOMMATE UTILITIES": {
+    "count": 1,
+    "total": "60.00",
+    "money_out": "0.00",
+    "lines": [
+      "S1:24"
+    ],
+    "descriptions": [
+      "VENMO CASHOUT ROOMMATE UTILITIES"
+    ]
+  },
+  "SPOTIFY USA": {
+    "count": 1,
+    "total": "-12.99",
+    "money_out": "12.99",
+    "lines": [
+      "S1:25"
+    ],
+    "descriptions": [
+      "SPOTIFY USA"
+    ]
+  },
+  "AMAZON SHOPPING": {
+    "count": 5,
+    "total": "-269.66",
+    "money_out": "269.66",
+    "lines": [
+      "S1:27",
+      "S1:39",
+      "S1:59",
+      "S1:77",
+      "S1:92"
+    ],
+    "descriptions": [
+      "AMZN MKTP US*Q06X",
+      "AMZN MKTP US*Q11X",
+      "AMZN MKTP US*Q17X",
+      "AMZN MKTP US*Q22X",
+      "AMZN MKTP US*Q26X"
+    ]
+  },
+  "GOOGLE *YOUTUBE PREMIUM": {
+    "count": 1,
+    "total": "-15.99",
+    "money_out": "15.99",
+    "lines": [
+      "S1:28"
+    ],
+    "descriptions": [
+      "GOOGLE *YOUTUBE PREMIUM"
+    ]
+  },
+  "FOOD LION": {
+    "count": 2,
+    "total": "-112.06",
+    "money_out": "112.06",
+    "lines": [
+      "S1:33",
+      "S1:84"
+    ],
+    "descriptions": [
+      "POS DEBIT FOOD LION #0284 RALEIGH NC"
+    ]
+  },
+  "APPLE.COM/BILL": {
+    "count": 1,
+    "total": "-2.99",
+    "money_out": "2.99",
+    "lines": [
+      "S1:36"
+    ],
+    "descriptions": [
+      "APPLE.COM/BILL"
+    ]
+  },
+  "NOODLE HOUSE": {
+    "count": 1,
+    "total": "-26.81",
+    "money_out": "26.81",
+    "lines": [
+      "S1:40"
+    ],
+    "descriptions": [
+      "TST* NOODLE HOUSE RALEIGH NC"
+    ]
+  },
+  "ATM CASH WITHDRAWAL": {
+    "count": 2,
+    "total": "-80.00",
+    "money_out": "80.00",
+    "lines": [
+      "S1:41",
+      "S1:85"
+    ],
+    "descriptions": [
+      "ATM CASH WITHDRAWAL RALEIGH NC"
+    ]
+  },
+  "NON-NETWORK ATM FEE": {
+    "count": 2,
+    "total": "-6.00",
+    "money_out": "6.00",
+    "lines": [
+      "S1:42",
+      "S1:86"
+    ],
+    "descriptions": [
+      "NON-NETWORK ATM FEE"
+    ]
+  },
+  "ATM OPERATOR FEE": {
+    "count": 2,
+    "total": "-7.00",
+    "money_out": "7.00",
+    "lines": [
+      "S1:43",
+      "S1:87"
+    ],
+    "descriptions": [
+      "ATM OPERATOR FEE"
+    ]
+  },
+  "AMAZON PRIME": {
+    "count": 1,
+    "total": "-14.99",
+    "money_out": "14.99",
+    "lines": [
+      "S1:44"
+    ],
+    "descriptions": [
+      "AMAZON PRIME"
+    ]
+  },
+  "PLANET FITNESS": {
+    "count": 1,
+    "total": "-15.00",
+    "money_out": "15.00",
+    "lines": [
+      "S1:46"
+    ],
+    "descriptions": [
+      "PLANET FITNESS"
+    ]
+  },
+  "TRADER JOES": {
+    "count": 1,
+    "total": "-54.72",
+    "money_out": "54.72",
+    "lines": [
+      "S1:48"
+    ],
+    "descriptions": [
+      "POS DEBIT TRADER JOES #0284 RALEIGH NC"
+    ]
+  },
+  "MOVIE THEATER": {
+    "count": 1,
+    "total": "-19.50",
+    "money_out": "19.50",
+    "lines": [
+      "S1:49"
+    ],
+    "descriptions": [
+      "MOVIE THEATER"
+    ]
+  },
+  "DOORDASH DASHPASS": {
+    "count": 1,
+    "total": "-9.99",
+    "money_out": "9.99",
+    "lines": [
+      "S1:50"
+    ],
+    "descriptions": [
+      "DOORDASH DASHPASS"
+    ]
+  },
+  "UBER ONE": {
+    "count": 1,
+    "total": "-9.99",
+    "money_out": "9.99",
+    "lines": [
+      "S1:53"
+    ],
+    "descriptions": [
+      "UBER ONE"
+    ]
+  },
+  "AUDIBLE MEMBERSHIP": {
+    "count": 1,
+    "total": "-14.95",
+    "money_out": "14.95",
+    "lines": [
+      "S1:57"
+    ],
+    "descriptions": [
+      "AUDIBLE MEMBERSHIP"
+    ]
+  },
+  "TARGET": {
+    "count": 2,
+    "total": "-57.48",
+    "money_out": "57.48",
+    "lines": [
+      "S1:64",
+      "S1:65"
+    ],
+    "descriptions": [
+      "TARGET #1182 RALEIGH NC"
+    ]
+  },
+  "STUDENT LOAN ACH": {
+    "count": 1,
+    "total": "-125.00",
+    "money_out": "125.00",
+    "lines": [
+      "S1:66"
+    ],
+    "descriptions": [
+      "STUDENT LOAN ACH"
+    ]
+  },
+  "AUTO LOAN PAYMENT": {
+    "count": 1,
+    "total": "-259.00",
+    "money_out": "259.00",
+    "lines": [
+      "S1:67"
+    ],
+    "descriptions": [
+      "AUTO LOAN PAYMENT"
+    ]
+  },
+  "OPENAI *CHATGPT PLUS": {
+    "count": 1,
+    "total": "-20.00",
+    "money_out": "20.00",
+    "lines": [
+      "S1:68"
+    ],
+    "descriptions": [
+      "OPENAI *CHATGPT PLUS"
+    ]
+  },
+  "UBER *TRIP": {
+    "count": 2,
+    "total": "-41.50",
+    "money_out": "41.50",
+    "lines": [
+      "S1:70",
+      "S1:96"
+    ],
+    "descriptions": [
+      "UBER *TRIP"
+    ]
+  },
+  "AUTO INSURANCE ACH": {
+    "count": 1,
+    "total": "-123.45",
+    "money_out": "123.45",
+    "lines": [
+      "S1:71"
+    ],
+    "descriptions": [
+      "AUTO INSURANCE ACH"
+    ]
+  },
+  "BURGER BAR": {
+    "count": 1,
+    "total": "-31.64",
+    "money_out": "31.64",
+    "lines": [
+      "S1:74"
+    ],
+    "descriptions": [
+      "TST* BURGER BAR RALEIGH NC"
+    ]
+  },
+  "ELECTRIC UTILITY BILLPAY": {
+    "count": 1,
+    "total": "-92.18",
+    "money_out": "92.18",
+    "lines": [
+      "S1:75"
+    ],
+    "descriptions": [
+      "ELECTRIC UTILITY BILLPAY"
+    ]
+  },
+  "OAK BARBER": {
+    "count": 1,
+    "total": "-32.00",
+    "money_out": "32.00",
+    "lines": [
+      "S1:78"
+    ],
+    "descriptions": [
+      "SQ * OAK BARBER RALEIGH NC"
+    ]
+  },
+  "PARAMOUNT+": {
+    "count": 1,
+    "total": "-8.99",
+    "money_out": "8.99",
+    "lines": [
+      "S1:79"
+    ],
+    "descriptions": [
+      "PARAMOUNT+"
+    ]
+  },
+  "MOBILE PHONE AUTOPAY": {
+    "count": 1,
+    "total": "-55.00",
+    "money_out": "55.00",
+    "lines": [
+      "S1:82"
+    ],
+    "descriptions": [
+      "MOBILE PHONE AUTOPAY"
+    ]
+  },
+  "HOME INTERNET AUTOPAY": {
+    "count": 1,
+    "total": "-65.00",
+    "money_out": "65.00",
+    "lines": [
+      "S1:88"
+    ],
+    "descriptions": [
+      "HOME INTERNET AUTOPAY"
+    ]
+  },
+  "TACO SHOP": {
+    "count": 1,
+    "total": "-24.16",
+    "money_out": "24.16",
+    "lines": [
+      "S1:93"
+    ],
+    "descriptions": [
+      "SQ * TACO SHOP RALEIGH NC"
+    ]
+  },
+  "BOWLING NIGHT": {
+    "count": 1,
+    "total": "-25.00",
+    "money_out": "25.00",
+    "lines": [
+      "S1:94"
+    ],
+    "descriptions": [
+      "BOWLING NIGHT"
+    ]
+  },
+  "ONLINE PAYMENT ATTEMPT": {
+    "count": 1,
+    "total": "-85.00",
+    "money_out": "85.00",
+    "lines": [
+      "S1:99"
+    ],
+    "descriptions": [
+      "ONLINE PAYMENT ATTEMPT"
+    ]
+  },
+  "ONLINE PAYMENT REVERSAL": {
+    "count": 1,
+    "total": "85.00",
+    "money_out": "0.00",
+    "lines": [
+      "S1:100"
+    ],
+    "descriptions": [
+      "ONLINE PAYMENT REVERSAL"
+    ]
+  },
+  "OVERDRAFT FEE": {
+    "count": 1,
+    "total": "-35.00",
+    "money_out": "35.00",
+    "lines": [
+      "S1:103"
+    ],
+    "descriptions": [
+      "OVERDRAFT FEE"
+    ]
+  },
+  "INSUFFICIENT FUNDS NSF RETURNED ITEM FEE": {
+    "count": 1,
+    "total": "-30.00",
+    "money_out": "30.00",
+    "lines": [
+      "S1:104"
+    ],
+    "descriptions": [
+      "INSUFFICIENT FUNDS NSF RETURNED ITEM FEE"
+    ]
+  },
+  "MONTHLY MAINTENANCE FEE": {
+    "count": 1,
+    "total": "-12.00",
+    "money_out": "12.00",
+    "lines": [
+      "S1:107"
+    ],
+    "descriptions": [
+      "MONTHLY MAINTENANCE FEE"
+    ]
+  }
+}

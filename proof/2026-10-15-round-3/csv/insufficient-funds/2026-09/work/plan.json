@@ -1,0 +1,216 @@
+{
+ "targets": {
+  "Income": {
+   "amount": "3280.00",
+   "why": "Two Cedar Lane Design paychecks of $1,640.00"
+  },
+  "Housing": {
+   "amount": "975.00",
+   "why": "Rent unchanged"
+  },
+  "Utilities": {
+   "amount": "92.18",
+   "why": "Electric at this month's cost; roommate's $60 share counted separately"
+  },
+  "Phone & Internet": {
+   "amount": "120.00",
+   "why": "Phone $55 + internet $65"
+  },
+  "Insurance": {
+   "amount": "123.45",
+   "why": "Auto insurance unchanged"
+  },
+  "Car Payment": {
+   "amount": "259.00",
+   "why": "Auto loan unchanged"
+  },
+  "Debt Payments": {
+   "amount": "125.00",
+   "why": "Student loan unchanged"
+  },
+  "Gas & Transit": {
+   "amount": "109.67",
+   "why": "Same as September"
+  },
+  "Rideshare": {
+   "amount": "41.50",
+   "why": "Same as September"
+  },
+  "Groceries": {
+   "amount": "400.00",
+   "why": "Up about $32 to cover more meals at home"
+  },
+  "Delivery & Takeout": {
+   "amount": "305.03",
+   "why": "Half of September's 18 delivery orders"
+  },
+  "Restaurants & Coffee": {
+   "amount": "137.17",
+   "why": "Half as many Starbucks stops; sit-down meals unchanged"
+  },
+  "Subscriptions": {
+   "amount": "138.88",
+   "why": "After canceling Spotify, Paramount+ and DashPass"
+  },
+  "Shopping": {
+   "amount": "200.00",
+   "why": "Cut from $327.14: about two fewer Amazon orders"
+  },
+  "Health & Fitness": {
+   "amount": "0.00",
+   "why": "Gym is under Subscriptions"
+  },
+  "Personal Care": {
+   "amount": "32.00",
+   "why": "Haircut unchanged"
+  },
+  "Entertainment": {
+   "amount": "44.50",
+   "why": "Fun money kept: movies and bowling"
+  },
+  "Travel": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Kids & Pets": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Gifts & Giving": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Bank Fees & Interest": {
+   "amount": "12.00",
+   "why": "Maintenance fee kept until you confirm a waiver; ATM and overdraft fees avoided"
+  },
+  "Cash & ATM": {
+   "amount": "60.00",
+   "why": "Slightly less cash, taken from your own bank's ATMs"
+  },
+  "Transfers": {
+   "amount": "0.00",
+   "why": "Excluded"
+  },
+  "Other": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Savings": {
+   "amount": "104.62",
+   "why": "All of it to a starter buffer so the account stops going negative"
+  }
+ },
+ "buffer": "104.62",
+ "buffer_goal": "500.00",
+ "buffer_current": "-125.35",
+ "leaks": [
+  {
+   "what": "Two music services",
+   "lines": [
+    "S1:25"
+   ],
+   "share": "1",
+   "kind": "recurring",
+   "overlap": "music",
+   "keep": "GOOGLE *YOUTUBE PREMIUM",
+   "action": "Cancel Spotify; YouTube Premium already includes YouTube Music",
+   "where": "spotify.com > Account > Manage plan > Cancel"
+  },
+  {
+   "what": "Paramount+ on top of four other video services",
+   "lines": [
+    "S1:79"
+   ],
+   "share": "1",
+   "kind": "recurring",
+   "action": "Cancel Paramount+; Netflix, Prime and the Disney bundle remain",
+   "where": "paramountplus.com > Account > Cancel subscription"
+  },
+  {
+   "what": "Five video services",
+   "lines": [
+    "S1:44",
+    "S1:15",
+    "S1:14",
+    "S1:11",
+    "S1:79"
+   ],
+   "share": "1",
+   "kind": "check",
+   "overlap": "video",
+   "action": "Prime is mostly shipping and the Disney bundle may include Hulu; after canceling Paramount+, consider rotating Netflix month to month",
+   "where": "Each service's account page",
+   "reason": "Prime is mainly for shipping and Hulu is covered by the bundle check; Paramount+ is canceled separately"
+  },
+  {
+   "what": "Two delivery passes",
+   "lines": [
+    "S1:50"
+   ],
+   "share": "1",
+   "kind": "recurring",
+   "overlap": "delivery pass",
+   "keep": "UBER ONE",
+   "action": "Cancel DashPass; with half as many orders one pass is enough, and Uber One also covers rides",
+   "where": "DoorDash app > Account > DashPass > End subscription"
+  },
+  {
+   "what": "Hulu may already be in the Disney bundle",
+   "lines": [
+    "S1:15",
+    "S1:14"
+   ],
+   "share": "1",
+   "kind": "check",
+   "overlap": "bundle:hulu",
+   "action": "If your Disney bundle includes Hulu, cancel the standalone $11.99 Hulu",
+   "where": "hulu.com > Account > Cancel, or the original biller",
+   "reason": "The statement can't show whether your Disney bundle already includes Hulu"
+  },
+  {
+   "what": "Apple charge and Audible",
+   "lines": [
+    "S1:36",
+    "S1:57"
+   ],
+   "share": "1",
+   "kind": "check",
+   "overlap": "other",
+   "action": "Different services, not duplicates: check Apple purchase history for what the $2.99 is, and whether you use Audible credits",
+   "where": "iPhone Settings > your name > Subscriptions; audible.com > Account details",
+   "reason": "Apple's $2.99 and Audible are different services, not duplicates"
+  },
+  {
+   "what": "Two identical Target charges",
+   "lines": [
+    "S1:64",
+    "S1:65"
+   ],
+   "share": "1",
+   "kind": "check",
+   "action": "Two $28.74 charges on 9/18: check your receipt; if it was one purchase, ask Target or the bank to reverse one",
+   "where": "Target receipt / bank dispute"
+  }
+ ],
+ "fee_actions": {
+  "atm": {
+   "action": "Use your own bank's ATMs or get cash back at the grocery store; two out-of-network withdrawals cost $13"
+  },
+  "overdraft-nsf": {
+   "action": "Keep the starter buffer, set a low-balance alert, and turn off overdraft coverage for card purchases"
+  },
+  "maintenance": {
+   "kind": "check",
+   "action": "Ask the bank how to waive the $12 monthly fee (often direct deposit or a minimum balance) or switch to a no-fee account"
+  }
+ },
+ "assumptions": [
+  "Keep YouTube Premium, cancel Spotify",
+  "Keep Netflix, Prime and the Disney bundle; cancel Paramount+",
+  "Keep Uber One, cancel DashPass",
+  "Hulu and Apple charges stay until you check them",
+  "Roommate's $60 utilities share is a reimbursement, not income",
+  "An $85 online payment on 9/28 was returned; that bill is probably still due and is not in this budget"
+ ]
+}

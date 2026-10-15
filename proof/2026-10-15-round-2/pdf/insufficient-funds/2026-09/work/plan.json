@@ -1,0 +1,181 @@
+{
+ "targets": {
+  "Housing": {
+   "amount": "975.00",
+   "why": "Rent unchanged"
+  },
+  "Utilities": {
+   "amount": "92.18",
+   "why": "Electric at this month's cost; roommate's $60 Venmo share is a transfer, not income"
+  },
+  "Phone & Internet": {
+   "amount": "120.00",
+   "why": "Phone $55 + internet $65 unchanged"
+  },
+  "Insurance": {
+   "amount": "123.45",
+   "why": "Auto insurance unchanged"
+  },
+  "Car Payment": {
+   "amount": "259.00",
+   "why": "Auto loan unchanged"
+  },
+  "Gas & Transit": {
+   "amount": "109.67",
+   "why": "Same as September"
+  },
+  "Rideshare": {
+   "amount": "41.50",
+   "why": "Same as September"
+  },
+  "Groceries": {
+   "amount": "368.28",
+   "why": "Same as September; covers more home meals as delivery drops"
+  },
+  "Delivery & Takeout": {
+   "amount": "305.03",
+   "why": "Half as many delivery orders"
+  },
+  "Restaurants & Coffee": {
+   "amount": "137.17",
+   "why": "Half as many Starbucks stops; sit-down meals unchanged"
+  },
+  "Subscriptions": {
+   "amount": "124.88",
+   "why": "Drops standalone Hulu (if in Disney bundle), DashPass and Paramount+"
+  },
+  "Shopping": {
+   "amount": "200.00",
+   "why": "Amazon/Target trimmed from $327.14 (Target double charge not counted as savings)"
+  },
+  "Health & Fitness": {
+   "amount": "15.00",
+   "why": "Planet Fitness unchanged"
+  },
+  "Personal Care": {
+   "amount": "32.00",
+   "why": "Haircut unchanged"
+  },
+  "Entertainment": {
+   "amount": "44.50",
+   "why": "Fun money kept: movies and bowling"
+  },
+  "Travel": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Kids & Pets": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Gifts & Giving": {
+   "amount": "0.00",
+   "why": "Unused"
+  },
+  "Debt Payments": {
+   "amount": "125.00",
+   "why": "Student loan unchanged"
+  },
+  "Bank Fees & Interest": {
+   "amount": "12.00",
+   "why": "Maintenance fee kept until the bank says how to avoid it; overdraft, NSF and ATM fees avoided"
+  },
+  "Cash & ATM": {
+   "amount": "80.00",
+   "why": "Same cash, from in-network ATMs"
+  },
+  "Transfers": {
+   "amount": "0.00",
+   "why": "Excluded"
+  },
+  "Other": {
+   "amount": "0.00",
+   "why": "The $85 returned payment netted to zero; see assumptions"
+  },
+  "Income": {
+   "amount": "3280.00",
+   "why": "Two Cedar Lane Design paychecks of $1,640"
+  },
+  "Savings": {
+   "amount": "115.34",
+   "why": "Everything left over; all to the buffer first"
+  }
+ },
+ "buffer": "115.34",
+ "buffer_goal": "500.00",
+ "buffer_current": "-125.35",
+ "leaks": [
+  {
+   "what": "Hulu may be in Disney+ bundle",
+   "lines": [
+    "S1:6"
+   ],
+   "share": "1",
+   "kind": "recurring",
+   "action": "Check whether the Disney+ bundle already includes Hulu; if so, cancel the standalone Hulu",
+   "where": "hulu.com > Account > Cancel, or the original biller"
+  },
+  {
+   "what": "Two delivery passes",
+   "lines": [
+    "S1:42"
+   ],
+   "share": "1",
+   "kind": "recurring",
+   "action": "Keep one delivery pass (Uber One also covers rides); end DashPass",
+   "where": "DoorDash app > Account > DashPass > End subscription"
+  },
+  {
+   "what": "Paramount+, 5th streaming plan",
+   "lines": [
+    "S1:71"
+   ],
+   "share": "1",
+   "kind": "recurring",
+   "action": "Cancel or rotate: keep one or two streaming services at a time",
+   "where": "paramountplus.com > Account > Cancel subscription, or the original biller"
+  },
+  {
+   "what": "Overdraft and NSF fees",
+   "lines": [
+    "S1:95",
+    "S1:96"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Keep a buffer; ask the bank about low-balance alerts and overdraft options",
+   "where": "Cedar Kite Bank app or branch"
+  },
+  {
+   "what": "Out-of-network ATM fees",
+   "lines": [
+    "S1:34",
+    "S1:35",
+    "S1:78",
+    "S1:79"
+   ],
+   "share": "1",
+   "kind": "observed",
+   "action": "Use your bank's in-network ATMs or cash back at the grocery register",
+   "where": "Your bank's ATM locator"
+  },
+  {
+   "what": "Target double charge?",
+   "lines": [
+    "S1:56",
+    "S1:57"
+   ],
+   "share": "1",
+   "kind": "check",
+   "action": "Two $28.74 Target charges on Sept 18; check the receipt and dispute if only one purchase",
+   "where": "Target receipt / bank dispute"
+  }
+ ],
+ "assumptions": [
+  "Cancel standalone Hulu only if the Disney+ bundle already includes Hulu.",
+  "Keep Uber One, end DashPass; swap if you use DashPass more.",
+  "Cancel Paramount+; keep Netflix, Disney+, YouTube Premium, Spotify, Prime, Audible, ChatGPT Plus and the Apple charge.",
+  "The $85 online payment on Sept 28 was returned; that bill may still be due and is not in this budget.",
+  "The account ended September $125.35 overdrawn; October's first paycheck covers that first, so the buffer starts below zero."
+ ]
+}

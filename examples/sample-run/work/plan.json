@@ -1,0 +1,213 @@
+{
+  "notice": "SAMPLE STATEMENT, FICTIONAL PERSON. This is a developer demonstration, not a Claude proof run.",
+  "targets": {
+    "Income": {
+      "amount": "3280.00",
+      "why": "Two observed paychecks; no assumed raise or roommate reimbursement"
+    },
+    "Housing": {
+      "amount": "975.00",
+      "why": "Rent unchanged"
+    },
+    "Utilities": {
+      "amount": "92.18",
+      "why": "Electric bill unchanged"
+    },
+    "Phone & Internet": {
+      "amount": "120.00",
+      "why": "Phone and internet unchanged"
+    },
+    "Insurance": {
+      "amount": "123.45",
+      "why": "Car insurance unchanged"
+    },
+    "Car Payment": {
+      "amount": "259.00",
+      "why": "Car payment unchanged"
+    },
+    "Gas & Transit": {
+      "amount": "109.67",
+      "why": "Keep the commute covered"
+    },
+    "Rideshare": {
+      "amount": "30.00",
+      "why": "Plan one fewer ride when transit works"
+    },
+    "Groceries": {
+      "amount": "340.00",
+      "why": "Use a short shopping list; keep room for meals replacing delivery"
+    },
+    "Delivery & Takeout": {
+      "amount": "305.03",
+      "why": "Order about half as often; keep a delivery allowance"
+    },
+    "Restaurants & Coffee": {
+      "amount": "137.17",
+      "why": "Cut the weekday coffee habit in half; keep the other meals out"
+    },
+    "Subscriptions": {
+      "amount": "96.94",
+      "why": "Assume cancellation of standalone Hulu, Spotify, Uber One, Audible and Paramount+; confirm the listed assumptions"
+    },
+    "Shopping": {
+      "amount": "210.00",
+      "why": "Wait a day before optional Amazon orders; no Target refund assumed"
+    },
+    "Health & Fitness": {
+      "amount": "15.00",
+      "why": "Keep the gym"
+    },
+    "Personal Care": {
+      "amount": "32.00",
+      "why": "Keep the haircut"
+    },
+    "Entertainment": {
+      "amount": "44.50",
+      "why": "Guilt-free movies and bowling"
+    },
+    "Travel": {
+      "amount": "0.00",
+      "why": "No travel this month"
+    },
+    "Kids & Pets": {
+      "amount": "0.00",
+      "why": "No charges this month"
+    },
+    "Gifts & Giving": {
+      "amount": "0.00",
+      "why": "No charges this month"
+    },
+    "Debt Payments": {
+      "amount": "125.00",
+      "why": "Student loan payment unchanged"
+    },
+    "Bank Fees & Interest": {
+      "amount": "0.00",
+      "why": "Use bank ATMs, request the account's fee-waiver terms, and keep the buffer; fee avoidance is an assumption"
+    },
+    "Cash & ATM": {
+      "amount": "60.00",
+      "why": "Withdraw a smaller cash allowance"
+    },
+    "Transfers": {
+      "amount": "0.00",
+      "why": "Roommate reimbursement is not recurring income"
+    },
+    "Savings": {
+      "amount": "205.06",
+      "why": "All remaining income goes to the buffer first"
+    },
+    "Other": {
+      "amount": "0.00",
+      "why": "Returned payment and reversal offset; investigate what remains due"
+    }
+  },
+  "buffer": "205.06",
+  "buffer_goal": "500.00",
+  "buffer_current": "-125.35",
+  "leaks": [
+    {
+      "what": "Hulu twice",
+      "lines": [
+        "S1:14"
+      ],
+      "share": "1",
+      "kind": "recurring",
+      "action": "Cancel standalone Hulu if the bundle includes the same Hulu plan",
+      "where": "Hulu > Account > Cancel; use the actual biller if different",
+      "overlap": "bundle:hulu",
+      "keep": "DISNEY PLUS BUNDLE"
+    },
+    {
+      "what": "Two music plans",
+      "lines": [
+        "S1:25"
+      ],
+      "share": "1",
+      "kind": "recurring",
+      "action": "Keep YouTube Music and cancel Spotify if that works for you",
+      "where": "Spotify account > Your plan > Cancel Premium",
+      "overlap": "music",
+      "keep": "GOOGLE *YOUTUBE PREMIUM"
+    },
+    {
+      "what": "Two delivery passes",
+      "lines": [
+        "S1:53"
+      ],
+      "share": "1",
+      "kind": "recurring",
+      "action": "Keep DashPass, cancel Uber One if its ride and delivery benefits are not needed",
+      "where": "Uber > Account > Uber One > Manage membership > End membership",
+      "overlap": "delivery pass",
+      "keep": "DOORDASH DASHPASS"
+    },
+    {
+      "what": "Audible",
+      "lines": [
+        "S1:57"
+      ],
+      "share": "1",
+      "kind": "recurring",
+      "action": "Cancel if unused; check credits and benefits before canceling",
+      "where": "Audible > Account details > Cancel membership; Amazon > Memberships & Subscriptions if billed there"
+    },
+    {
+      "what": "Paramount+",
+      "lines": [
+        "S1:79"
+      ],
+      "share": "1",
+      "kind": "recurring",
+      "action": "Check whether a trial ended; cancel if unwanted",
+      "where": "Paramount+ > Account > Cancel subscription, or the original billing provider"
+    },
+    {
+      "what": "Target twice",
+      "lines": [
+        "S1:64",
+        "S1:65"
+      ],
+      "kind": "check",
+      "action": "Check this against receipts; ask the merchant only if one is a duplicate. No refund assumed",
+      "where": ""
+    },
+    {
+      "what": "Several video services",
+      "kind": "check",
+      "overlap": "video",
+      "lines": [
+        "S1:44",
+        "S1:15",
+        "S1:14",
+        "S1:11",
+        "S1:79"
+      ],
+      "reason": "These libraries differ; keep the ones you use and confirm the Hulu bundle before canceling.",
+      "action": "Review Netflix, Disney, Hulu, Prime Video and Paramount+ together. Proposed Hulu and Paramount+ cuts are listed separately."
+    }
+  ],
+  "assumptions": [
+    "SAMPLE STATEMENT, FICTIONAL PERSON. Developer sample, not a real Claude session.",
+    "Use the observed two-paycheck month, not an annual average or the roommate reimbursement.",
+    "Suggested cancels: standalone Hulu, Spotify, Uber One, Audible and Paramount+. Say keep Hulu (or any other) to rebuild.",
+    "Confirm the Disney bundle includes Hulu and YouTube Premium includes the music service you want. Delivery passes serve different platforms, so the choice depends on future use.",
+    "The statement does not prove a trial expired or Audible is unused. These are proposed cuts to confirm.",
+    "Apple billing may be iCloud or something else. Check iPhone Settings > your name > Subscriptions and purchase history. For iCloud+, use Settings > your name > iCloud > Manage Plan. Nothing from Apple is canceled in this plan.",
+    "For subscriptions billed by Google, use Google Play > Payments & subscriptions > Subscriptions. For Amazon billing, use Account > Memberships & Subscriptions.",
+    "The fictional bank's maintenance fee is assumed waivable after checking terms. The budget assumes future fee avoidance, not refunds.",
+    "The returned payment reversed in full. Confirm what the payment was for and when it must be retried; rebuild if a bill is still due.",
+    "The buffer goal of $500 is a proposed first milestone. Start from the negative statement closing balance. The allocation first restores that overdraft; only the remainder becomes a positive cushion. Check bill dates against paydays."
+  ],
+  "fee_actions": {
+    "atm": {
+      "action": "Use your bank's ATMs"
+    },
+    "overdraft-nsf": {
+      "action": "Turn on low-balance alerts and build the buffer"
+    },
+    "maintenance": {
+      "action": "Check direct-deposit waiver terms or ask for a no-fee account"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "targets": {
+  "Housing": {"amount":"0.00","why":"Not on this card"},
+  "Utilities": {"amount":"0.00","why":"Not on this card"},
+  "Phone & Internet": {"amount":"0.00","why":"Not on this card"},
+  "Insurance": {"amount":"0.00","why":"Not on this card"},
+  "Car Payment": {"amount":"0.00","why":"Not on this card"},
+  "Gas & Transit": {"amount":"171.26","why":"Kept at September's fuel spending"},
+  "Rideshare": {"amount":"42.35","why":"Kept; two rides last month"},
+  "Groceries": {"amount":"352.90","why":"Kept, and cooking more replaces some delivery"},
+  "Delivery & Takeout": {"amount":"160.48","why":"Order half as often"},
+  "Restaurants & Coffee": {"amount":"180.55","why":"Half as many Starbucks runs; sit-down meals kept"},
+  "Subscriptions": {"amount":"307.93","why":"Cancel Max, Paramount+ and Peacock; keep Netflix. Noom stays until checked"},
+  "Shopping": {"amount":"141.59","why":"Kept at September's level"},
+  "Health & Fitness": {"amount":"17.62","why":"Pharmacy kept"},
+  "Personal Care": {"amount":"58.00","why":"Kept"},
+  "Entertainment": {"amount":"0.00","why":"No separate fun spending on this card; meals out are kept above"},
+  "Travel": {"amount":"0.00","why":"Unused"},
+  "Kids & Pets": {"amount":"0.00","why":"Unused"},
+  "Gifts & Giving": {"amount":"0.00","why":"Unused"},
+  "Debt Payments": {"amount":"0.00","why":"Card payments are transfers"},
+  "Bank Fees & Interest": {"amount":"61.47","why":"Late fee and foreign fee avoidable; interest continues until the balance is paid down"},
+  "Cash & ATM": {"amount":"0.00","why":"Unused"},
+  "Transfers": {"amount":"0.00","why":"Excluded"},
+  "Other": {"amount":"0.00","why":"Unused"}
+ },
+ "leaks": [
+  {"what":"Late fee","lines":["S1:12"],"share":"1","kind":"observed","action":"Turn on autopay for at least the minimum payment so this never repeats; you can also ask the card issuer to waive this one","where":"Card issuer app > Payments > Autopay"},
+  {"what":"Foreign transaction fee","lines":["S1:28"],"share":"1","kind":"observed","action":"Charged with the AliExpress order; use a card without foreign fees for overseas sites","where":"Card terms / checkout choice"},
+  {"what":"Max, overlapping streaming","lines":["S1:20"],"share":"1","kind":"recurring","action":"Four video services at once; cancel Max and rejoin for a month when there's a show you want","where":"max.com > Settings > Subscription > Cancel"},
+  {"what":"Paramount+, overlapping streaming","lines":["S1:26"],"share":"1","kind":"recurring","action":"Cancel; rotate in when needed","where":"paramountplus.com > Account > Cancel Subscription"},
+  {"what":"Peacock Premium, overlapping streaming","lines":["S1:13"],"share":"1","kind":"recurring","action":"Cancel; rotate in when needed","where":"peacocktv.com > Account > Plans & Payment > Cancel"},
+  {"what":"Noom $209, check plan","lines":["S1:41"],"share":"1","kind":"check","action":"Largest single charge. Check whether this is a multi-month prepay or a renewal you meant to keep; if not using it, cancel and ask about a refund","where":"Noom app > Settings > Subscription, or the store that billed it"},
+  {"what":"Blue Door Coffee twice, same amount","lines":["S1:22","S1:23"],"share":"1","kind":"check","action":"Two $6.75 charges on Sep 10; if you only bought one, dispute the extra","where":"Card issuer app > transaction > Dispute"}
+ ],
+ "assumptions": [
+  "Keep Netflix, Spotify, Amazon Prime, Crunch Fitness, Google One, DashPass and the Apple subscription; check which app Apple billed.",
+  "Cancel Max, Paramount+ and Peacock. Say 'keep Max' (or any of them) and I'll rebuild.",
+  "Noom's billing interval is unknown from one charge; its yearly figure assumes monthly and may be an overstatement.",
+  "Card-only view: rent, utilities and other accounts aren't visible."
+ ]
+}

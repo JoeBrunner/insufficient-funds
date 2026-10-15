@@ -1,0 +1,10 @@
+{
+  "name": "insufficient-funds",
+  "description": "Read every line of a statement, find spending leaks, and build a budget spreadsheet from real numbers. Claude judges; Python adds up.",
+  "version": "1.0.0",
+  "author": {"name": "Joe Brunner"},
+  "homepage": "https://github.com/JoeBrunner/insufficient-funds",
+  "repository": "https://github.com/JoeBrunner/insufficient-funds",
+  "license": "MIT",
+  "keywords": ["claude-code", "skill", "budget", "spending", "subscriptions", "bank-statement"]
+}

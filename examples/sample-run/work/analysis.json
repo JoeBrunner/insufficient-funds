@@ -1,0 +1,2067 @@
+{
+  "schema": 2,
+  "month": "2026-09",
+  "reconciliation": {
+    "sha256": "035bf9e153f3d30a5747a5444fa544023b6b16ee0be75b5cf6da597a9a4bb362",
+    "sources": {
+      "S1": {
+        "count": 98,
+        "start": "2026-09-01",
+        "end": "2026-09-30",
+        "money_in": "3425.00",
+        "money_out": "3845.35",
+        "net": "-420.35",
+        "source": "S1",
+        "status": "reconciled",
+        "checks": [
+          "money_in",
+          "money_out",
+          "opening + inflows - outflows = closing",
+          "running balances"
+        ],
+        "controls": {
+          "opening": "295.00",
+          "closing": "-125.35",
+          "deposits": "3425.00",
+          "withdrawals": "3845.35"
+        },
+        "note": "Statement totals and balances match."
+      }
+    },
+    "liability": {
+      "S1": false
+    }
+  },
+  "statement_totals": {
+    "count": 98,
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "money_in": "3425.00",
+    "money_out": "3845.35",
+    "net": "-420.35"
+  },
+  "income": "3280.00",
+  "spending": "3760.35",
+  "difference": "-480.35",
+  "categories": {
+    "Income": "3280.00",
+    "Housing": "975.00",
+    "Utilities": "92.18",
+    "Phone & Internet": "120.00",
+    "Insurance": "123.45",
+    "Car Payment": "259.00",
+    "Gas & Transit": "109.67",
+    "Rideshare": "41.50",
+    "Groceries": "368.28",
+    "Delivery & Takeout": "610.06",
+    "Restaurants & Coffee": "191.72",
+    "Subscriptions": "155.85",
+    "Shopping": "327.14",
+    "Health & Fitness": "15.00",
+    "Personal Care": "32.00",
+    "Entertainment": "44.50",
+    "Travel": "0.00",
+    "Kids & Pets": "0.00",
+    "Gifts & Giving": "0.00",
+    "Debt Payments": "125.00",
+    "Bank Fees & Interest": "90.00",
+    "Cash & ATM": "80.00",
+    "Transfers": "-60.00",
+    "Savings": "0.00",
+    "Other": "0.00"
+  },
+  "verification": "reconciled",
+  "subscriptions": {
+    "items": [
+      {
+        "merchant": "AMAZON PRIME",
+        "name": "Amazon Prime",
+        "amount": "14.99",
+        "billing": "monthly",
+        "kind": "shopping membership",
+        "monthly": "14.99",
+        "yearly": "179.88",
+        "where": "Amazon > Prime membership > Manage membership > End membership",
+        "lines": [
+          "S1:44"
+        ]
+      },
+      {
+        "merchant": "APPLE.COM/BILL",
+        "name": "Apple billing, check purchase history",
+        "amount": "2.99",
+        "billing": "monthly",
+        "kind": "cloud storage",
+        "monthly": "2.99",
+        "yearly": "35.88",
+        "where": "iPhone Settings > your name > Subscriptions; check purchase history. For iCloud+, use iCloud > Manage Plan",
+        "lines": [
+          "S1:36"
+        ]
+      },
+      {
+        "merchant": "AUDIBLE MEMBERSHIP",
+        "name": "Audible",
+        "amount": "14.95",
+        "billing": "monthly",
+        "kind": "other",
+        "monthly": "14.95",
+        "yearly": "179.40",
+        "where": "Audible > Account details > Cancel membership; check unused credits first",
+        "lines": [
+          "S1:57"
+        ]
+      },
+      {
+        "merchant": "DISNEY PLUS BUNDLE",
+        "name": "Disney bundle",
+        "amount": "12.99",
+        "billing": "monthly",
+        "kind": "video",
+        "monthly": "12.99",
+        "yearly": "155.88",
+        "where": "Disney+ > Account > Subscription > Cancel",
+        "lines": [
+          "S1:15"
+        ]
+      },
+      {
+        "merchant": "DOORDASH DASHPASS",
+        "name": "DashPass",
+        "amount": "9.99",
+        "billing": "monthly",
+        "kind": "delivery pass",
+        "monthly": "9.99",
+        "yearly": "119.88",
+        "where": "DoorDash > Account > Manage DashPass > End subscription",
+        "lines": [
+          "S1:50"
+        ]
+      },
+      {
+        "merchant": "GOOGLE *YOUTUBE PREMIUM",
+        "name": "YouTube Premium",
+        "amount": "15.99",
+        "billing": "monthly",
+        "kind": "music",
+        "monthly": "15.99",
+        "yearly": "191.88",
+        "where": "YouTube > Purchases and memberships > Manage membership",
+        "lines": [
+          "S1:28"
+        ]
+      },
+      {
+        "merchant": "HULU",
+        "name": "Hulu",
+        "amount": "11.99",
+        "billing": "monthly",
+        "kind": "video",
+        "monthly": "11.99",
+        "yearly": "143.88",
+        "where": "Hulu > Account > Cancel, or the original billing provider",
+        "lines": [
+          "S1:14"
+        ]
+      },
+      {
+        "merchant": "NETFLIX.COM",
+        "name": "Netflix",
+        "amount": "19.99",
+        "billing": "monthly",
+        "kind": "video",
+        "monthly": "19.99",
+        "yearly": "239.88",
+        "where": "Netflix > Account > Manage membership > Cancel",
+        "lines": [
+          "S1:11"
+        ]
+      },
+      {
+        "merchant": "OPENAI *CHATGPT PLUS",
+        "name": "ChatGPT Plus",
+        "amount": "20.00",
+        "billing": "monthly",
+        "kind": "AI",
+        "monthly": "20.00",
+        "yearly": "240.00",
+        "where": "ChatGPT > Settings > Account > Manage subscription, or the original billing provider",
+        "lines": [
+          "S1:68"
+        ]
+      },
+      {
+        "merchant": "PARAMOUNT+",
+        "name": "Paramount+",
+        "amount": "8.99",
+        "billing": "monthly",
+        "kind": "video",
+        "monthly": "8.99",
+        "yearly": "107.88",
+        "where": "Paramount+ > Account > Cancel subscription, or the original billing provider",
+        "lines": [
+          "S1:79"
+        ]
+      },
+      {
+        "merchant": "PLANET FITNESS",
+        "name": "Gym",
+        "amount": "15.00",
+        "billing": "monthly",
+        "kind": "fitness",
+        "monthly": "15.00",
+        "yearly": "180.00",
+        "where": "Contact your home club or check its membership cancellation options",
+        "lines": [
+          "S1:46"
+        ]
+      },
+      {
+        "merchant": "SPOTIFY USA",
+        "name": "Spotify",
+        "amount": "12.99",
+        "billing": "monthly",
+        "kind": "music",
+        "monthly": "12.99",
+        "yearly": "155.88",
+        "where": "Spotify account > Your plan > Cancel Premium",
+        "lines": [
+          "S1:25"
+        ]
+      },
+      {
+        "merchant": "UBER ONE",
+        "name": "Uber One",
+        "amount": "9.99",
+        "billing": "monthly",
+        "kind": "delivery pass",
+        "monthly": "9.99",
+        "yearly": "119.88",
+        "where": "Uber > Account > Uber One > Manage membership > End membership",
+        "lines": [
+          "S1:53"
+        ]
+      }
+    ],
+    "count": 13,
+    "listed_count": 13,
+    "yearly_count": 0,
+    "monthly_billed": "170.85",
+    "yearly_equivalent": "0.00",
+    "monthly": "170.85",
+    "yearly": "2050.20",
+    "unclear": []
+  },
+  "overlaps": [
+    {
+      "id": "bundle:hulu",
+      "name": "Hulu in the Disney bundle",
+      "merchants": [
+        "DISNEY PLUS BUNDLE",
+        "HULU"
+      ],
+      "names": [
+        "Disney bundle",
+        "Hulu"
+      ],
+      "lines": [
+        "S1:15",
+        "S1:14"
+      ],
+      "note": "Check included Hulu plan against standalone Hulu."
+    },
+    {
+      "id": "delivery pass",
+      "name": "delivery pass",
+      "merchants": [
+        "DOORDASH DASHPASS",
+        "UBER ONE"
+      ],
+      "names": [
+        "DashPass",
+        "Uber One"
+      ],
+      "lines": [
+        "S1:50",
+        "S1:53"
+      ],
+      "note": "Services may complement each other; review before canceling."
+    },
+    {
+      "id": "music",
+      "name": "music",
+      "merchants": [
+        "GOOGLE *YOUTUBE PREMIUM",
+        "SPOTIFY USA"
+      ],
+      "names": [
+        "YouTube Premium",
+        "Spotify"
+      ],
+      "lines": [
+        "S1:28",
+        "S1:25"
+      ],
+      "note": "Services may complement each other; review before canceling."
+    },
+    {
+      "id": "video",
+      "name": "video",
+      "merchants": [
+        "AMAZON PRIME",
+        "DISNEY PLUS BUNDLE",
+        "HULU",
+        "NETFLIX.COM",
+        "PARAMOUNT+"
+      ],
+      "names": [
+        "Amazon Prime",
+        "Disney bundle",
+        "Hulu",
+        "Netflix",
+        "Paramount+"
+      ],
+      "lines": [
+        "S1:44",
+        "S1:15",
+        "S1:14",
+        "S1:11",
+        "S1:79"
+      ],
+      "note": "Services may complement each other; review before canceling."
+    }
+  ],
+  "fee_leaks": [
+    {
+      "id": "atm",
+      "what": "ATM fees",
+      "lines": [
+        "S1:42",
+        "S1:43",
+        "S1:86",
+        "S1:87"
+      ],
+      "monthly": "13.00",
+      "kind": "observed"
+    },
+    {
+      "id": "overdraft-nsf",
+      "what": "Overdraft and NSF fees",
+      "lines": [
+        "S1:103",
+        "S1:104"
+      ],
+      "monthly": "65.00",
+      "kind": "observed"
+    },
+    {
+      "id": "maintenance",
+      "what": "Monthly maintenance fee",
+      "lines": [
+        "S1:107"
+      ],
+      "monthly": "12.00",
+      "kind": "observed"
+    }
+  ],
+  "recurring": [
+    {
+      "merchant": "AMAZON PRIME",
+      "name": "Amazon Prime",
+      "count": 1,
+      "total": "14.99",
+      "per_week": "3.50",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:44"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "APPLE.COM/BILL",
+      "name": "Apple billing, check purchase history",
+      "count": 1,
+      "total": "2.99",
+      "per_week": "0.70",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:36"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "AUDIBLE MEMBERSHIP",
+      "name": "Audible",
+      "count": 1,
+      "total": "14.95",
+      "per_week": "3.49",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:57"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "DISNEY PLUS BUNDLE",
+      "name": "Disney bundle",
+      "count": 1,
+      "total": "12.99",
+      "per_week": "3.03",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:15"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "DOORDASH DASHPASS",
+      "name": "DashPass",
+      "count": 1,
+      "total": "9.99",
+      "per_week": "2.33",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:50"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "GOOGLE *YOUTUBE PREMIUM",
+      "name": "YouTube Premium",
+      "count": 1,
+      "total": "15.99",
+      "per_week": "3.73",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:28"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "HULU",
+      "name": "Hulu",
+      "count": 1,
+      "total": "11.99",
+      "per_week": "2.80",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:14"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "NETFLIX.COM",
+      "name": "Netflix",
+      "count": 1,
+      "total": "19.99",
+      "per_week": "4.66",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:11"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "OPENAI *CHATGPT PLUS",
+      "name": "ChatGPT Plus",
+      "count": 1,
+      "total": "20.00",
+      "per_week": "4.67",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:68"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "PARAMOUNT+",
+      "name": "Paramount+",
+      "count": 1,
+      "total": "8.99",
+      "per_week": "2.10",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:79"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "PLANET FITNESS",
+      "name": "Gym",
+      "count": 1,
+      "total": "15.00",
+      "per_week": "3.50",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:46"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "SPOTIFY USA",
+      "name": "Spotify",
+      "count": 1,
+      "total": "12.99",
+      "per_week": "3.03",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:25"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "UBER ONE",
+      "name": "Uber One",
+      "count": 1,
+      "total": "9.99",
+      "per_week": "2.33",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:53"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    }
+  ],
+  "possible_doubles": [
+    {
+      "merchant": "TARGET",
+      "amount": "28.74",
+      "lines": [
+        "S1:64",
+        "S1:65"
+      ],
+      "label": "check this",
+      "note": "Could be two legitimate purchases. No refund assumed."
+    }
+  ],
+  "fees": {
+    "count": 7,
+    "total": "90.00",
+    "per_week": "21.00",
+    "count_per_week": "1.63",
+    "lines": [
+      "S1:42",
+      "S1:43",
+      "S1:86",
+      "S1:87",
+      "S1:103",
+      "S1:104",
+      "S1:107"
+    ]
+  },
+  "delivery": {
+    "count": 18,
+    "total": "610.06",
+    "per_week": "142.35",
+    "count_per_week": "4.20",
+    "lines": [
+      "S1:13",
+      "S1:19",
+      "S1:22",
+      "S1:26",
+      "S1:31",
+      "S1:35",
+      "S1:38",
+      "S1:45",
+      "S1:52",
+      "S1:55",
+      "S1:62",
+      "S1:69",
+      "S1:73",
+      "S1:81",
+      "S1:90",
+      "S1:95",
+      "S1:98",
+      "S1:106"
+    ],
+    "visible_fees_tips": {
+      "count": 0,
+      "total": "0.00",
+      "per_week": "0.00",
+      "count_per_week": "0.00",
+      "lines": []
+    },
+    "note": "Fees/tips inside a combined charge are not visible."
+  },
+  "habit_leaks": [
+    {
+      "habit": "delivery",
+      "what": "Delivery, 18 orders",
+      "category": "Delivery & Takeout",
+      "count": 18,
+      "total": "610.06",
+      "per_week": "142.35",
+      "count_per_week": "4.20",
+      "lines": [
+        "S1:13",
+        "S1:19",
+        "S1:22",
+        "S1:26",
+        "S1:31",
+        "S1:35",
+        "S1:38",
+        "S1:45",
+        "S1:52",
+        "S1:55",
+        "S1:62",
+        "S1:69",
+        "S1:73",
+        "S1:81",
+        "S1:90",
+        "S1:95",
+        "S1:98",
+        "S1:106"
+      ],
+      "monthly": "305.03",
+      "action": "Order half as often; keep easy meals at home."
+    },
+    {
+      "habit": "merchant:STARBUCKS",
+      "merchant": "STARBUCKS",
+      "what": "Starbucks, 22 visits",
+      "category": "Restaurants & Coffee",
+      "count": 22,
+      "total": "109.11",
+      "per_week": "25.46",
+      "count_per_week": "5.13",
+      "lines": [
+        "S1:10",
+        "S1:12",
+        "S1:16",
+        "S1:18",
+        "S1:29",
+        "S1:30",
+        "S1:32",
+        "S1:34",
+        "S1:37",
+        "S1:47",
+        "S1:51",
+        "S1:54",
+        "S1:58",
+        "S1:61",
+        "S1:72",
+        "S1:76",
+        "S1:80",
+        "S1:83",
+        "S1:89",
+        "S1:97",
+        "S1:101",
+        "S1:105"
+      ],
+      "monthly": "54.55",
+      "action": "Make half as many of these small purchases."
+    }
+  ],
+  "small_habits": [
+    {
+      "habit": "merchant:STARBUCKS",
+      "merchant": "STARBUCKS",
+      "what": "Starbucks, 22 visits",
+      "category": "Restaurants & Coffee",
+      "count": 22,
+      "total": "109.11",
+      "per_week": "25.46",
+      "count_per_week": "5.13",
+      "lines": [
+        "S1:10",
+        "S1:12",
+        "S1:16",
+        "S1:18",
+        "S1:29",
+        "S1:30",
+        "S1:32",
+        "S1:34",
+        "S1:37",
+        "S1:47",
+        "S1:51",
+        "S1:54",
+        "S1:58",
+        "S1:61",
+        "S1:72",
+        "S1:76",
+        "S1:80",
+        "S1:83",
+        "S1:89",
+        "S1:97",
+        "S1:101",
+        "S1:105"
+      ],
+      "monthly": "54.55",
+      "action": "Make half as many of these small purchases."
+    }
+  ],
+  "transactions": [
+    {
+      "id": "S1:10",
+      "date": "2026-09-01",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/01",
+      "amount": "-4.53",
+      "balance": "290.47",
+      "source_file": "S1",
+      "source_row": 10,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:11",
+      "date": "2026-09-02",
+      "description": "NETFLIX.COM",
+      "amount": "-19.99",
+      "balance": "270.48",
+      "source_file": "S1",
+      "source_row": 11,
+      "merchant": "NETFLIX.COM",
+      "category": "Subscriptions",
+      "name": "Netflix",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:12",
+      "date": "2026-09-02",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/02",
+      "amount": "-4.56",
+      "balance": "265.92",
+      "source_file": "S1",
+      "source_row": 12,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:13",
+      "date": "2026-09-02",
+      "description": "DOORDASH*CHIPOTLE",
+      "amount": "-31.93",
+      "balance": "233.99",
+      "source_file": "S1",
+      "source_row": 13,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:14",
+      "date": "2026-09-03",
+      "description": "HULU",
+      "amount": "-11.99",
+      "balance": "222.00",
+      "source_file": "S1",
+      "source_row": 14,
+      "merchant": "HULU",
+      "category": "Subscriptions",
+      "name": "Hulu",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:15",
+      "date": "2026-09-03",
+      "description": "DISNEY PLUS BUNDLE",
+      "amount": "-12.99",
+      "balance": "209.01",
+      "source_file": "S1",
+      "source_row": 15,
+      "merchant": "DISNEY PLUS BUNDLE",
+      "category": "Subscriptions",
+      "name": "Disney bundle",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:16",
+      "date": "2026-09-03",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/03",
+      "amount": "-4.59",
+      "balance": "204.42",
+      "source_file": "S1",
+      "source_row": 16,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:17",
+      "date": "2026-09-04",
+      "description": "CEDAR LANE DESIGN PAYROLL DIRECT DEP",
+      "amount": "1640.00",
+      "balance": "1844.42",
+      "source_file": "S1",
+      "source_row": 17,
+      "merchant": "CEDAR LANE DESIGN PAYROLL DIRECT DEP",
+      "category": "Income",
+      "name": "Paycheck",
+      "flags": []
+    },
+    {
+      "id": "S1:18",
+      "date": "2026-09-04",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/04",
+      "amount": "-4.62",
+      "balance": "1839.80",
+      "source_file": "S1",
+      "source_row": 18,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:19",
+      "date": "2026-09-04",
+      "description": "UBER *EATS",
+      "amount": "-30.31",
+      "balance": "1809.49",
+      "source_file": "S1",
+      "source_row": 19,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:20",
+      "date": "2026-09-04",
+      "description": "POS DEBIT ALDI #0284 RALEIGH NC",
+      "amount": "-78.43",
+      "balance": "1731.06",
+      "source_file": "S1",
+      "source_row": 20,
+      "merchant": "ALDI",
+      "category": "Groceries",
+      "name": "Aldi",
+      "flags": []
+    },
+    {
+      "id": "S1:21",
+      "date": "2026-09-05",
+      "description": "OAK COURT APTS RENT ACH",
+      "amount": "-975.00",
+      "balance": "756.06",
+      "source_file": "S1",
+      "source_row": 21,
+      "merchant": "OAK COURT APTS RENT ACH",
+      "category": "Housing",
+      "name": "Rent",
+      "flags": []
+    },
+    {
+      "id": "S1:22",
+      "date": "2026-09-05",
+      "description": "DOORDASH*WINGSTOP",
+      "amount": "-27.63",
+      "balance": "728.43",
+      "source_file": "S1",
+      "source_row": 22,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:23",
+      "date": "2026-09-05",
+      "description": "POS DEBIT SHELL #0328 RALEIGH NC",
+      "amount": "-36.17",
+      "balance": "692.26",
+      "source_file": "S1",
+      "source_row": 23,
+      "merchant": "SHELL",
+      "category": "Gas & Transit",
+      "name": "Gas",
+      "flags": []
+    },
+    {
+      "id": "S1:24",
+      "date": "2026-09-06",
+      "description": "VENMO CASHOUT ROOMMATE UTILITIES",
+      "amount": "60.00",
+      "balance": "752.26",
+      "source_file": "S1",
+      "source_row": 24,
+      "merchant": "VENMO CASHOUT ROOMMATE UTILITIES",
+      "category": "Transfers",
+      "name": "Roommate reimbursement",
+      "flags": []
+    },
+    {
+      "id": "S1:25",
+      "date": "2026-09-06",
+      "description": "SPOTIFY USA",
+      "amount": "-12.99",
+      "balance": "739.27",
+      "source_file": "S1",
+      "source_row": 25,
+      "merchant": "SPOTIFY USA",
+      "category": "Subscriptions",
+      "name": "Spotify",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:26",
+      "date": "2026-09-06",
+      "description": "UBER *EATS",
+      "amount": "-35.12",
+      "balance": "704.15",
+      "source_file": "S1",
+      "source_row": 26,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:27",
+      "date": "2026-09-06",
+      "description": "AMZN MKTP US*Q06X",
+      "amount": "-42.18",
+      "balance": "661.97",
+      "source_file": "S1",
+      "source_row": 27,
+      "merchant": "AMAZON SHOPPING",
+      "category": "Shopping",
+      "name": "Amazon orders",
+      "flags": []
+    },
+    {
+      "id": "S1:28",
+      "date": "2026-09-07",
+      "description": "GOOGLE *YOUTUBE PREMIUM",
+      "amount": "-15.99",
+      "balance": "645.98",
+      "source_file": "S1",
+      "source_row": 28,
+      "merchant": "GOOGLE *YOUTUBE PREMIUM",
+      "category": "Subscriptions",
+      "name": "YouTube Premium",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:29",
+      "date": "2026-09-07",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/07",
+      "amount": "-4.71",
+      "balance": "641.27",
+      "source_file": "S1",
+      "source_row": 29,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:30",
+      "date": "2026-09-08",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/08",
+      "amount": "-4.74",
+      "balance": "636.53",
+      "source_file": "S1",
+      "source_row": 30,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:31",
+      "date": "2026-09-08",
+      "description": "DOORDASH*CAVA",
+      "amount": "-35.32",
+      "balance": "601.21",
+      "source_file": "S1",
+      "source_row": 31,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:32",
+      "date": "2026-09-09",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/09",
+      "amount": "-4.77",
+      "balance": "596.44",
+      "source_file": "S1",
+      "source_row": 32,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:33",
+      "date": "2026-09-09",
+      "description": "POS DEBIT FOOD LION #0284 RALEIGH NC",
+      "amount": "-62.18",
+      "balance": "534.26",
+      "source_file": "S1",
+      "source_row": 33,
+      "merchant": "FOOD LION",
+      "category": "Groceries",
+      "name": "Food Lion",
+      "flags": []
+    },
+    {
+      "id": "S1:34",
+      "date": "2026-09-10",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/10",
+      "amount": "-4.80",
+      "balance": "529.46",
+      "source_file": "S1",
+      "source_row": 34,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:35",
+      "date": "2026-09-10",
+      "description": "UBER *EATS",
+      "amount": "-29.35",
+      "balance": "500.11",
+      "source_file": "S1",
+      "source_row": 35,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:36",
+      "date": "2026-09-11",
+      "description": "APPLE.COM/BILL",
+      "amount": "-2.99",
+      "balance": "497.12",
+      "source_file": "S1",
+      "source_row": 36,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Subscriptions",
+      "name": "Apple billing, check purchase history",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:37",
+      "date": "2026-09-11",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/11",
+      "amount": "-4.83",
+      "balance": "492.29",
+      "source_file": "S1",
+      "source_row": 37,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:38",
+      "date": "2026-09-11",
+      "description": "DOORDASH*CHIPOTLE",
+      "amount": "-28.10",
+      "balance": "464.19",
+      "source_file": "S1",
+      "source_row": 38,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:39",
+      "date": "2026-09-11",
+      "description": "AMZN MKTP US*Q11X",
+      "amount": "-67.49",
+      "balance": "396.70",
+      "source_file": "S1",
+      "source_row": 39,
+      "merchant": "AMAZON SHOPPING",
+      "category": "Shopping",
+      "name": "Amazon orders",
+      "flags": []
+    },
+    {
+      "id": "S1:40",
+      "date": "2026-09-12",
+      "description": "TST* NOODLE HOUSE RALEIGH NC",
+      "amount": "-26.81",
+      "balance": "369.89",
+      "source_file": "S1",
+      "source_row": 40,
+      "merchant": "NOODLE HOUSE",
+      "category": "Restaurants & Coffee",
+      "name": "Noodle House",
+      "flags": []
+    },
+    {
+      "id": "S1:41",
+      "date": "2026-09-12",
+      "description": "ATM CASH WITHDRAWAL RALEIGH NC",
+      "amount": "-40.00",
+      "balance": "329.89",
+      "source_file": "S1",
+      "source_row": 41,
+      "merchant": "ATM CASH WITHDRAWAL",
+      "category": "Cash & ATM",
+      "name": "Cash withdrawals",
+      "flags": []
+    },
+    {
+      "id": "S1:42",
+      "date": "2026-09-12",
+      "description": "NON-NETWORK ATM FEE",
+      "amount": "-3.00",
+      "balance": "326.89",
+      "source_file": "S1",
+      "source_row": 42,
+      "merchant": "NON-NETWORK ATM FEE",
+      "category": "Bank Fees & Interest",
+      "name": "Out-of-network ATM fees",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:43",
+      "date": "2026-09-12",
+      "description": "ATM OPERATOR FEE",
+      "amount": "-3.50",
+      "balance": "323.39",
+      "source_file": "S1",
+      "source_row": 43,
+      "merchant": "ATM OPERATOR FEE",
+      "category": "Bank Fees & Interest",
+      "name": "ATM operator fees",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:44",
+      "date": "2026-09-13",
+      "description": "AMAZON PRIME",
+      "amount": "-14.99",
+      "balance": "308.40",
+      "source_file": "S1",
+      "source_row": 44,
+      "merchant": "AMAZON PRIME",
+      "category": "Subscriptions",
+      "name": "Amazon Prime",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:45",
+      "date": "2026-09-13",
+      "description": "UBER *EATS",
+      "amount": "-29.67",
+      "balance": "278.73",
+      "source_file": "S1",
+      "source_row": 45,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:46",
+      "date": "2026-09-14",
+      "description": "PLANET FITNESS",
+      "amount": "-15.00",
+      "balance": "263.73",
+      "source_file": "S1",
+      "source_row": 46,
+      "merchant": "PLANET FITNESS",
+      "category": "Health & Fitness",
+      "name": "Gym",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:47",
+      "date": "2026-09-14",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/14",
+      "amount": "-4.92",
+      "balance": "258.81",
+      "source_file": "S1",
+      "source_row": 47,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:48",
+      "date": "2026-09-14",
+      "description": "POS DEBIT TRADER JOES #0284 RALEIGH NC",
+      "amount": "-54.72",
+      "balance": "204.09",
+      "source_file": "S1",
+      "source_row": 48,
+      "merchant": "TRADER JOES",
+      "category": "Groceries",
+      "name": "Trader Joe's",
+      "flags": []
+    },
+    {
+      "id": "S1:49",
+      "date": "2026-09-14",
+      "description": "MOVIE THEATER",
+      "amount": "-19.50",
+      "balance": "184.59",
+      "source_file": "S1",
+      "source_row": 49,
+      "merchant": "MOVIE THEATER",
+      "category": "Entertainment",
+      "name": "Movies",
+      "flags": []
+    },
+    {
+      "id": "S1:50",
+      "date": "2026-09-15",
+      "description": "DOORDASH DASHPASS",
+      "amount": "-9.99",
+      "balance": "174.60",
+      "source_file": "S1",
+      "source_row": 50,
+      "merchant": "DOORDASH DASHPASS",
+      "category": "Subscriptions",
+      "name": "DashPass",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:51",
+      "date": "2026-09-15",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/15",
+      "amount": "-4.95",
+      "balance": "169.65",
+      "source_file": "S1",
+      "source_row": 51,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:52",
+      "date": "2026-09-15",
+      "description": "DOORDASH*WINGSTOP",
+      "amount": "-28.72",
+      "balance": "140.93",
+      "source_file": "S1",
+      "source_row": 52,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:53",
+      "date": "2026-09-16",
+      "description": "UBER ONE",
+      "amount": "-9.99",
+      "balance": "130.94",
+      "source_file": "S1",
+      "source_row": 53,
+      "merchant": "UBER ONE",
+      "category": "Subscriptions",
+      "name": "Uber One",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:54",
+      "date": "2026-09-16",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/16",
+      "amount": "-4.98",
+      "balance": "125.96",
+      "source_file": "S1",
+      "source_row": 54,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:55",
+      "date": "2026-09-16",
+      "description": "UBER *EATS",
+      "amount": "-40.07",
+      "balance": "85.89",
+      "source_file": "S1",
+      "source_row": 55,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:56",
+      "date": "2026-09-16",
+      "description": "POS DEBIT SHELL #0328 RALEIGH NC",
+      "amount": "-39.42",
+      "balance": "46.47",
+      "source_file": "S1",
+      "source_row": 56,
+      "merchant": "SHELL",
+      "category": "Gas & Transit",
+      "name": "Gas",
+      "flags": []
+    },
+    {
+      "id": "S1:57",
+      "date": "2026-09-17",
+      "description": "AUDIBLE MEMBERSHIP",
+      "amount": "-14.95",
+      "balance": "31.52",
+      "source_file": "S1",
+      "source_row": 57,
+      "merchant": "AUDIBLE MEMBERSHIP",
+      "category": "Subscriptions",
+      "name": "Audible",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:58",
+      "date": "2026-09-17",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/17",
+      "amount": "-5.01",
+      "balance": "26.51",
+      "source_file": "S1",
+      "source_row": 58,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:59",
+      "date": "2026-09-17",
+      "description": "AMZN MKTP US*Q17X",
+      "amount": "-23.99",
+      "balance": "2.52",
+      "source_file": "S1",
+      "source_row": 59,
+      "merchant": "AMAZON SHOPPING",
+      "category": "Shopping",
+      "name": "Amazon orders",
+      "flags": []
+    },
+    {
+      "id": "S1:60",
+      "date": "2026-09-18",
+      "description": "CEDAR LANE DESIGN PAYROLL DIRECT DEP",
+      "amount": "1640.00",
+      "balance": "1642.52",
+      "source_file": "S1",
+      "source_row": 60,
+      "merchant": "CEDAR LANE DESIGN PAYROLL DIRECT DEP",
+      "category": "Income",
+      "name": "Paycheck",
+      "flags": []
+    },
+    {
+      "id": "S1:61",
+      "date": "2026-09-18",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/18",
+      "amount": "-5.04",
+      "balance": "1637.48",
+      "source_file": "S1",
+      "source_row": 61,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:62",
+      "date": "2026-09-18",
+      "description": "DOORDASH*CAVA",
+      "amount": "-41.77",
+      "balance": "1595.71",
+      "source_file": "S1",
+      "source_row": 62,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:63",
+      "date": "2026-09-18",
+      "description": "POS DEBIT ALDI #0284 RALEIGH NC",
+      "amount": "-84.16",
+      "balance": "1511.55",
+      "source_file": "S1",
+      "source_row": 63,
+      "merchant": "ALDI",
+      "category": "Groceries",
+      "name": "Aldi",
+      "flags": []
+    },
+    {
+      "id": "S1:64",
+      "date": "2026-09-18",
+      "description": "TARGET #1182 RALEIGH NC",
+      "amount": "-28.74",
+      "balance": "1482.81",
+      "source_file": "S1",
+      "source_row": 64,
+      "merchant": "TARGET",
+      "category": "Shopping",
+      "name": "Target",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:65",
+      "date": "2026-09-18",
+      "description": "TARGET #1182 RALEIGH NC",
+      "amount": "-28.74",
+      "balance": "1454.07",
+      "source_file": "S1",
+      "source_row": 65,
+      "merchant": "TARGET",
+      "category": "Shopping",
+      "name": "Target",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:66",
+      "date": "2026-09-19",
+      "description": "STUDENT LOAN ACH",
+      "amount": "-125.00",
+      "balance": "1329.07",
+      "source_file": "S1",
+      "source_row": 66,
+      "merchant": "STUDENT LOAN ACH",
+      "category": "Debt Payments",
+      "name": "Student loan",
+      "flags": []
+    },
+    {
+      "id": "S1:67",
+      "date": "2026-09-20",
+      "description": "AUTO LOAN PAYMENT",
+      "amount": "-259.00",
+      "balance": "1070.07",
+      "source_file": "S1",
+      "source_row": 67,
+      "merchant": "AUTO LOAN PAYMENT",
+      "category": "Car Payment",
+      "name": "Car payment",
+      "flags": []
+    },
+    {
+      "id": "S1:68",
+      "date": "2026-09-20",
+      "description": "OPENAI *CHATGPT PLUS",
+      "amount": "-20.00",
+      "balance": "1050.07",
+      "source_file": "S1",
+      "source_row": 68,
+      "merchant": "OPENAI *CHATGPT PLUS",
+      "category": "Subscriptions",
+      "name": "ChatGPT Plus",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:69",
+      "date": "2026-09-20",
+      "description": "UBER *EATS",
+      "amount": "-31.66",
+      "balance": "1018.41",
+      "source_file": "S1",
+      "source_row": 69,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:70",
+      "date": "2026-09-20",
+      "description": "UBER *TRIP",
+      "amount": "-18.90",
+      "balance": "999.51",
+      "source_file": "S1",
+      "source_row": 70,
+      "merchant": "UBER *TRIP",
+      "category": "Rideshare",
+      "name": "Uber rides",
+      "flags": []
+    },
+    {
+      "id": "S1:71",
+      "date": "2026-09-21",
+      "description": "AUTO INSURANCE ACH",
+      "amount": "-123.45",
+      "balance": "876.06",
+      "source_file": "S1",
+      "source_row": 71,
+      "merchant": "AUTO INSURANCE ACH",
+      "category": "Insurance",
+      "name": "Car insurance",
+      "flags": []
+    },
+    {
+      "id": "S1:72",
+      "date": "2026-09-21",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/21",
+      "amount": "-5.13",
+      "balance": "870.93",
+      "source_file": "S1",
+      "source_row": 72,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:73",
+      "date": "2026-09-21",
+      "description": "DOORDASH*CHIPOTLE",
+      "amount": "-39.89",
+      "balance": "831.04",
+      "source_file": "S1",
+      "source_row": 73,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:74",
+      "date": "2026-09-21",
+      "description": "TST* BURGER BAR RALEIGH NC",
+      "amount": "-31.64",
+      "balance": "799.40",
+      "source_file": "S1",
+      "source_row": 74,
+      "merchant": "BURGER BAR",
+      "category": "Restaurants & Coffee",
+      "name": "Burger Bar",
+      "flags": []
+    },
+    {
+      "id": "S1:75",
+      "date": "2026-09-22",
+      "description": "ELECTRIC UTILITY BILLPAY",
+      "amount": "-92.18",
+      "balance": "707.22",
+      "source_file": "S1",
+      "source_row": 75,
+      "merchant": "ELECTRIC UTILITY BILLPAY",
+      "category": "Utilities",
+      "name": "Electric",
+      "flags": []
+    },
+    {
+      "id": "S1:76",
+      "date": "2026-09-22",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/22",
+      "amount": "-5.16",
+      "balance": "702.06",
+      "source_file": "S1",
+      "source_row": 76,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:77",
+      "date": "2026-09-22",
+      "description": "AMZN MKTP US*Q22X",
+      "amount": "-78.14",
+      "balance": "623.92",
+      "source_file": "S1",
+      "source_row": 77,
+      "merchant": "AMAZON SHOPPING",
+      "category": "Shopping",
+      "name": "Amazon orders",
+      "flags": []
+    },
+    {
+      "id": "S1:78",
+      "date": "2026-09-22",
+      "description": "SQ * OAK BARBER RALEIGH NC",
+      "amount": "-32.00",
+      "balance": "591.92",
+      "source_file": "S1",
+      "source_row": 78,
+      "merchant": "OAK BARBER",
+      "category": "Personal Care",
+      "name": "Haircut",
+      "flags": []
+    },
+    {
+      "id": "S1:79",
+      "date": "2026-09-23",
+      "description": "PARAMOUNT+",
+      "amount": "-8.99",
+      "balance": "582.93",
+      "source_file": "S1",
+      "source_row": 79,
+      "merchant": "PARAMOUNT+",
+      "category": "Subscriptions",
+      "name": "Paramount+",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:80",
+      "date": "2026-09-23",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/23",
+      "amount": "-5.19",
+      "balance": "577.74",
+      "source_file": "S1",
+      "source_row": 80,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:81",
+      "date": "2026-09-23",
+      "description": "UBER *EATS",
+      "amount": "-35.15",
+      "balance": "542.59",
+      "source_file": "S1",
+      "source_row": 81,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:82",
+      "date": "2026-09-24",
+      "description": "MOBILE PHONE AUTOPAY",
+      "amount": "-55.00",
+      "balance": "487.59",
+      "source_file": "S1",
+      "source_row": 82,
+      "merchant": "MOBILE PHONE AUTOPAY",
+      "category": "Phone & Internet",
+      "name": "Phone",
+      "flags": []
+    },
+    {
+      "id": "S1:83",
+      "date": "2026-09-24",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/24",
+      "amount": "-5.22",
+      "balance": "482.37",
+      "source_file": "S1",
+      "source_row": 83,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:84",
+      "date": "2026-09-24",
+      "description": "POS DEBIT FOOD LION #0284 RALEIGH NC",
+      "amount": "-49.88",
+      "balance": "432.49",
+      "source_file": "S1",
+      "source_row": 84,
+      "merchant": "FOOD LION",
+      "category": "Groceries",
+      "name": "Food Lion",
+      "flags": []
+    },
+    {
+      "id": "S1:85",
+      "date": "2026-09-24",
+      "description": "ATM CASH WITHDRAWAL RALEIGH NC",
+      "amount": "-40.00",
+      "balance": "392.49",
+      "source_file": "S1",
+      "source_row": 85,
+      "merchant": "ATM CASH WITHDRAWAL",
+      "category": "Cash & ATM",
+      "name": "Cash withdrawals",
+      "flags": []
+    },
+    {
+      "id": "S1:86",
+      "date": "2026-09-24",
+      "description": "NON-NETWORK ATM FEE",
+      "amount": "-3.00",
+      "balance": "389.49",
+      "source_file": "S1",
+      "source_row": 86,
+      "merchant": "NON-NETWORK ATM FEE",
+      "category": "Bank Fees & Interest",
+      "name": "Out-of-network ATM fees",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:87",
+      "date": "2026-09-24",
+      "description": "ATM OPERATOR FEE",
+      "amount": "-3.50",
+      "balance": "385.99",
+      "source_file": "S1",
+      "source_row": 87,
+      "merchant": "ATM OPERATOR FEE",
+      "category": "Bank Fees & Interest",
+      "name": "ATM operator fees",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:88",
+      "date": "2026-09-25",
+      "description": "HOME INTERNET AUTOPAY",
+      "amount": "-65.00",
+      "balance": "320.99",
+      "source_file": "S1",
+      "source_row": 88,
+      "merchant": "HOME INTERNET AUTOPAY",
+      "category": "Phone & Internet",
+      "name": "Internet",
+      "flags": []
+    },
+    {
+      "id": "S1:89",
+      "date": "2026-09-25",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/25",
+      "amount": "-5.25",
+      "balance": "315.74",
+      "source_file": "S1",
+      "source_row": 89,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:90",
+      "date": "2026-09-25",
+      "description": "DOORDASH*WINGSTOP",
+      "amount": "-38.04",
+      "balance": "277.70",
+      "source_file": "S1",
+      "source_row": 90,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:91",
+      "date": "2026-09-25",
+      "description": "POS DEBIT SHELL #0328 RALEIGH NC",
+      "amount": "-34.08",
+      "balance": "243.62",
+      "source_file": "S1",
+      "source_row": 91,
+      "merchant": "SHELL",
+      "category": "Gas & Transit",
+      "name": "Gas",
+      "flags": []
+    },
+    {
+      "id": "S1:92",
+      "date": "2026-09-26",
+      "description": "AMZN MKTP US*Q26X",
+      "amount": "-57.86",
+      "balance": "185.76",
+      "source_file": "S1",
+      "source_row": 92,
+      "merchant": "AMAZON SHOPPING",
+      "category": "Shopping",
+      "name": "Amazon orders",
+      "flags": []
+    },
+    {
+      "id": "S1:93",
+      "date": "2026-09-26",
+      "description": "SQ * TACO SHOP RALEIGH NC",
+      "amount": "-24.16",
+      "balance": "161.60",
+      "source_file": "S1",
+      "source_row": 93,
+      "merchant": "TACO SHOP",
+      "category": "Restaurants & Coffee",
+      "name": "Taco Shop",
+      "flags": []
+    },
+    {
+      "id": "S1:94",
+      "date": "2026-09-26",
+      "description": "BOWLING NIGHT",
+      "amount": "-25.00",
+      "balance": "136.60",
+      "source_file": "S1",
+      "source_row": 94,
+      "merchant": "BOWLING NIGHT",
+      "category": "Entertainment",
+      "name": "Bowling",
+      "flags": []
+    },
+    {
+      "id": "S1:95",
+      "date": "2026-09-27",
+      "description": "UBER *EATS",
+      "amount": "-32.49",
+      "balance": "104.11",
+      "source_file": "S1",
+      "source_row": 95,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:96",
+      "date": "2026-09-27",
+      "description": "UBER *TRIP",
+      "amount": "-22.60",
+      "balance": "81.51",
+      "source_file": "S1",
+      "source_row": 96,
+      "merchant": "UBER *TRIP",
+      "category": "Rideshare",
+      "name": "Uber rides",
+      "flags": []
+    },
+    {
+      "id": "S1:97",
+      "date": "2026-09-28",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/28",
+      "amount": "-5.34",
+      "balance": "76.17",
+      "source_file": "S1",
+      "source_row": 97,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:98",
+      "date": "2026-09-28",
+      "description": "DOORDASH*CAVA",
+      "amount": "-36.28",
+      "balance": "39.89",
+      "source_file": "S1",
+      "source_row": 98,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:99",
+      "date": "2026-09-28",
+      "description": "ONLINE PAYMENT ATTEMPT",
+      "amount": "-85.00",
+      "balance": "-45.11",
+      "source_file": "S1",
+      "source_row": 99,
+      "merchant": "ONLINE PAYMENT ATTEMPT",
+      "category": "Other",
+      "name": "Returned payment attempt",
+      "flags": []
+    },
+    {
+      "id": "S1:100",
+      "date": "2026-09-28",
+      "description": "ONLINE PAYMENT REVERSAL",
+      "amount": "85.00",
+      "balance": "39.89",
+      "source_file": "S1",
+      "source_row": 100,
+      "merchant": "ONLINE PAYMENT REVERSAL",
+      "category": "Other",
+      "name": "Returned payment reversal",
+      "flags": []
+    },
+    {
+      "id": "S1:101",
+      "date": "2026-09-29",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/29",
+      "amount": "-5.37",
+      "balance": "34.52",
+      "source_file": "S1",
+      "source_row": 101,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:102",
+      "date": "2026-09-29",
+      "description": "POS DEBIT ALDI #0284 RALEIGH NC",
+      "amount": "-38.91",
+      "balance": "-4.39",
+      "source_file": "S1",
+      "source_row": 102,
+      "merchant": "ALDI",
+      "category": "Groceries",
+      "name": "Aldi",
+      "flags": []
+    },
+    {
+      "id": "S1:103",
+      "date": "2026-09-29",
+      "description": "OVERDRAFT FEE",
+      "amount": "-35.00",
+      "balance": "-39.39",
+      "source_file": "S1",
+      "source_row": 103,
+      "merchant": "OVERDRAFT FEE",
+      "category": "Bank Fees & Interest",
+      "name": "Overdraft fee",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:104",
+      "date": "2026-09-29",
+      "description": "INSUFFICIENT FUNDS NSF RETURNED ITEM FEE",
+      "amount": "-30.00",
+      "balance": "-69.39",
+      "source_file": "S1",
+      "source_row": 104,
+      "merchant": "INSUFFICIENT FUNDS NSF RETURNED ITEM FEE",
+      "category": "Bank Fees & Interest",
+      "name": "NSF fee",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:105",
+      "date": "2026-09-30",
+      "description": "POS DEBIT STARBUCKS #1042 RALEIGH NC 09/30",
+      "amount": "-5.40",
+      "balance": "-74.79",
+      "source_file": "S1",
+      "source_row": 105,
+      "merchant": "STARBUCKS",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:106",
+      "date": "2026-09-30",
+      "description": "UBER *EATS",
+      "amount": "-38.56",
+      "balance": "-113.35",
+      "source_file": "S1",
+      "source_row": 106,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:107",
+      "date": "2026-09-30",
+      "description": "MONTHLY MAINTENANCE FEE",
+      "amount": "-12.00",
+      "balance": "-125.35",
+      "source_file": "S1",
+      "source_row": 107,
+      "merchant": "MONTHLY MAINTENANCE FEE",
+      "category": "Bank Fees & Interest",
+      "name": "Monthly maintenance",
+      "flags": [
+        "fee"
+      ]
+    }
+  ],
+  "notes": [
+    "Transfers and card payments excluded; purchase refunds reduce their spending category.",
+    "Income means deposits Claude marked as regular income, not every positive entry.",
+    "A single month suggests subscriptions; it does not prove a trial, unused service, or billing interval."
+  ]
+}

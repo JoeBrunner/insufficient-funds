@@ -1,0 +1,227 @@
+SAMPLE STATEMENT, FICTIONAL PERSON
+
+
+Cedar Kite Bank (fictional)
+Alex Mercer (fictional), age 27, Raleigh, NC
+Everyday checking | Account ****4417
+September 1-30, 2026 | USD
+
+
+Account summary
+ Opening balance                                                 $295.00
+
+ Deposits / credits                                             $3,425.00
+
+ Withdrawals / debits                                           $3,845.35
+
+ Fees (already in withdrawals)                                    $90.00
+
+ Closing balance                                                 -$125.35
+
+
+Every transaction (98)
+ Date              Description                                              Amount ($)           Balance ($)
+
+ 09/01/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/01                            -4.53            290.47
+
+ 09/02/2026        NETFLIX.COM                                                       -19.99               270.48
+
+ 09/02/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/02                            -4.56            265.92
+
+ 09/02/2026        DOORDASH*CHIPOTLE                                                 -31.93               233.99
+
+ 09/03/2026        HULU                                                              -11.99               222.00
+
+ 09/03/2026        DISNEY PLUS BUNDLE                                                -12.99               209.01
+
+ 09/03/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/03                            -4.59            204.42
+
+ 09/04/2026        CEDAR LANE DESIGN PAYROLL DIRECT DEP                            1640.00               1844.42
+
+ 09/04/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/04                            -4.62           1839.80
+
+ 09/04/2026        UBER *EATS                                                        -30.31              1809.49
+
+ 09/04/2026        POS DEBIT ALDI #0284 RALEIGH NC                                   -78.43              1731.06
+
+ 09/05/2026        OAK COURT APTS RENT ACH                                          -975.00               756.06
+
+ 09/05/2026        DOORDASH*WINGSTOP                                                 -27.63               728.43
+
+ 09/05/2026        POS DEBIT SHELL #0328 RALEIGH NC                                  -36.17               692.26
+
+ 09/06/2026        VENMO CASHOUT ROOMMATE UTILITIES                                  60.00                752.26
+
+ 09/06/2026        SPOTIFY USA                                                       -12.99               739.27
+Date         Description                                  Amount ($)           Balance ($)
+
+09/06/2026   UBER *EATS                                            -35.12               704.15
+
+09/06/2026   AMZN MKTP US*Q06X                                     -42.18               661.97
+
+09/07/2026   GOOGLE *YOUTUBE PREMIUM                               -15.99               645.98
+
+09/07/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/07                -4.71            641.27
+
+09/08/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/08                -4.74            636.53
+
+09/08/2026   DOORDASH*CAVA                                         -35.32               601.21
+
+09/09/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/09                -4.77            596.44
+
+09/09/2026   POS DEBIT FOOD LION #0284 RALEIGH NC                  -62.18               534.26
+
+09/10/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/10                -4.80            529.46
+
+09/10/2026   UBER *EATS                                            -29.35                500.11
+
+09/11/2026   APPLE.COM/BILL                                            -2.99            497.12
+
+09/11/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/11                -4.83            492.29
+
+09/11/2026   DOORDASH*CHIPOTLE                                     -28.10               464.19
+
+09/11/2026   AMZN MKTP US*Q11X                                     -67.49               396.70
+
+09/12/2026   TST* NOODLE HOUSE RALEIGH NC                          -26.81               369.89
+
+09/12/2026   ATM CASH WITHDRAWAL RALEIGH NC                        -40.00               329.89
+
+09/12/2026   NON-NETWORK ATM FEE                                       -3.00            326.89
+
+09/12/2026   ATM OPERATOR FEE                                          -3.50            323.39
+
+09/13/2026   AMAZON PRIME                                          -14.99               308.40
+
+09/13/2026   UBER *EATS                                            -29.67               278.73
+
+09/14/2026   PLANET FITNESS                                        -15.00               263.73
+
+09/14/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/14                -4.92            258.81
+
+09/14/2026   POS DEBIT TRADER JOES #0284 RALEIGH NC                -54.72               204.09
+
+09/14/2026   MOVIE THEATER                                         -19.50               184.59
+
+09/15/2026   DOORDASH DASHPASS                                         -9.99            174.60
+
+09/15/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/15                -4.95            169.65
+
+09/15/2026   DOORDASH*WINGSTOP                                     -28.72               140.93
+
+09/16/2026   UBER ONE                                                  -9.99            130.94
+
+09/16/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/16                -4.98            125.96
+
+09/16/2026   UBER *EATS                                            -40.07                    85.89
+
+09/16/2026   POS DEBIT SHELL #0328 RALEIGH NC                      -39.42                    46.47
+Date         Description                                  Amount ($)           Balance ($)
+
+09/17/2026   AUDIBLE MEMBERSHIP                                    -14.95                    31.52
+
+09/17/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/17                -5.01                 26.51
+
+09/17/2026   AMZN MKTP US*Q17X                                     -23.99                     2.52
+
+09/18/2026   CEDAR LANE DESIGN PAYROLL DIRECT DEP                1640.00               1642.52
+
+09/18/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/18                -5.04           1637.48
+
+09/18/2026   DOORDASH*CAVA                                         -41.77              1595.71
+
+09/18/2026   POS DEBIT ALDI #0284 RALEIGH NC                       -84.16               1511.55
+
+09/18/2026   TARGET #1182 RALEIGH NC                               -28.74              1482.81
+
+09/18/2026   TARGET #1182 RALEIGH NC                               -28.74              1454.07
+
+09/19/2026   STUDENT LOAN ACH                                     -125.00              1329.07
+
+09/20/2026   AUTO LOAN PAYMENT                                    -259.00              1070.07
+
+09/20/2026   OPENAI *CHATGPT PLUS                                  -20.00              1050.07
+
+09/20/2026   UBER *EATS                                            -31.66              1018.41
+
+09/20/2026   UBER *TRIP                                            -18.90               999.51
+
+09/21/2026   AUTO INSURANCE ACH                                   -123.45               876.06
+
+09/21/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/21                -5.13            870.93
+
+09/21/2026   DOORDASH*CHIPOTLE                                     -39.89               831.04
+
+09/21/2026   TST* BURGER BAR RALEIGH NC                            -31.64               799.40
+
+09/22/2026   ELECTRIC UTILITY BILLPAY                              -92.18               707.22
+
+09/22/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/22                -5.16            702.06
+
+09/22/2026   AMZN MKTP US*Q22X                                     -78.14               623.92
+
+09/22/2026   SQ * OAK BARBER RALEIGH NC                            -32.00               591.92
+
+09/23/2026   PARAMOUNT+                                                -8.99            582.93
+
+09/23/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/23                -5.19            577.74
+
+09/23/2026   UBER *EATS                                            -35.15               542.59
+
+09/24/2026   MOBILE PHONE AUTOPAY                                  -55.00               487.59
+
+09/24/2026   POS DEBIT STARBUCKS #1042 RALEIGH NC 09/24                -5.22            482.37
+
+09/24/2026   POS DEBIT FOOD LION #0284 RALEIGH NC                  -49.88               432.49
+
+09/24/2026   ATM CASH WITHDRAWAL RALEIGH NC                        -40.00               392.49
+
+09/24/2026   NON-NETWORK ATM FEE                                       -3.00            389.49
+
+09/24/2026   ATM OPERATOR FEE                                          -3.50            385.99
+ Date              Description                                                               Amount ($)           Balance ($)
+
+ 09/25/2026        HOME INTERNET AUTOPAY                                                                -65.00              320.99
+
+ 09/25/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/25                                             -5.25             315.74
+
+ 09/25/2026        DOORDASH*WINGSTOP                                                                    -38.04              277.70
+
+ 09/25/2026        POS DEBIT SHELL #0328 RALEIGH NC                                                     -34.08              243.62
+
+ 09/26/2026        AMZN MKTP US*Q26X                                                                    -57.86              185.76
+
+ 09/26/2026        SQ * TACO SHOP RALEIGH NC                                                            -24.16              161.60
+
+ 09/26/2026        BOWLING NIGHT                                                                        -25.00              136.60
+
+ 09/27/2026        UBER *EATS                                                                           -32.49              104.11
+
+ 09/27/2026        UBER *TRIP                                                                           -22.60                  81.51
+
+ 09/28/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/28                                             -5.34                 76.17
+
+ 09/28/2026        DOORDASH*CAVA                                                                        -36.28                  39.89
+
+ 09/28/2026        ONLINE PAYMENT ATTEMPT                                                               -85.00                  -45.11
+
+ 09/28/2026        ONLINE PAYMENT REVERSAL                                                               85.00                  39.89
+
+ 09/29/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/29                                             -5.37                 34.52
+
+ 09/29/2026        POS DEBIT ALDI #0284 RALEIGH NC                                                      -38.91                   -4.39
+
+ 09/29/2026        OVERDRAFT FEE                                                                        -35.00                  -39.39
+
+ 09/29/2026        INSUFFICIENT FUNDS NSF RETURNED ITEM FEE                                             -30.00                  -69.39
+
+ 09/30/2026        POS DEBIT STARBUCKS #1042 RALEIGH NC 09/30                                             -5.40                 -74.79
+
+ 09/30/2026        UBER *EATS                                                                           -38.56             -113.35
+
+ 09/30/2026        MONTHLY MAINTENANCE FEE                                                              -12.00             -125.35
+
+
+SAMPLE STATEMENT, FICTIONAL PERSON. This bank, person and account are invented. Charges and dates are examples, not financial
+records. A reversed payment is shown as a debit and a credit. Fees appear separately.
+

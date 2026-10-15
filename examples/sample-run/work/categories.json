@@ -1,0 +1,225 @@
+{
+  "STARBUCKS": {
+    "category": "Restaurants & Coffee",
+    "name": "Starbucks"
+  },
+  "NETFLIX.COM": {
+    "category": "Subscriptions",
+    "name": "Netflix",
+    "where": "Netflix > Account > Manage membership > Cancel",
+    "kind": "video",
+    "billing": "monthly"
+  },
+  "DOORDASH": {
+    "category": "Delivery & Takeout",
+    "name": "DoorDash"
+  },
+  "HULU": {
+    "category": "Subscriptions",
+    "name": "Hulu",
+    "where": "Hulu > Account > Cancel, or the original billing provider",
+    "kind": "video",
+    "billing": "monthly"
+  },
+  "DISNEY PLUS BUNDLE": {
+    "category": "Subscriptions",
+    "name": "Disney bundle",
+    "where": "Disney+ > Account > Subscription > Cancel",
+    "kind": "video",
+    "billing": "monthly"
+  },
+  "CEDAR LANE DESIGN PAYROLL DIRECT DEP": {
+    "category": "Income",
+    "name": "Paycheck"
+  },
+  "UBER EATS": {
+    "category": "Delivery & Takeout",
+    "name": "Uber Eats"
+  },
+  "ALDI": {
+    "category": "Groceries",
+    "name": "Aldi"
+  },
+  "OAK COURT APTS RENT ACH": {
+    "category": "Housing",
+    "name": "Rent"
+  },
+  "SHELL": {
+    "category": "Gas & Transit",
+    "name": "Gas"
+  },
+  "VENMO CASHOUT ROOMMATE UTILITIES": {
+    "category": "Transfers",
+    "name": "Roommate reimbursement"
+  },
+  "SPOTIFY USA": {
+    "category": "Subscriptions",
+    "name": "Spotify",
+    "where": "Spotify account > Your plan > Cancel Premium",
+    "kind": "music",
+    "billing": "monthly"
+  },
+  "AMAZON SHOPPING": {
+    "category": "Shopping",
+    "name": "Amazon orders"
+  },
+  "GOOGLE *YOUTUBE PREMIUM": {
+    "category": "Subscriptions",
+    "name": "YouTube Premium",
+    "where": "YouTube > Purchases and memberships > Manage membership",
+    "kind": "music",
+    "billing": "monthly"
+  },
+  "FOOD LION": {
+    "category": "Groceries",
+    "name": "Food Lion"
+  },
+  "APPLE.COM/BILL": {
+    "category": "Subscriptions",
+    "name": "Apple billing, check purchase history",
+    "where": "iPhone Settings > your name > Subscriptions; check purchase history. For iCloud+, use iCloud > Manage Plan",
+    "kind": "cloud storage",
+    "billing": "monthly"
+  },
+  "NOODLE HOUSE": {
+    "category": "Restaurants & Coffee",
+    "name": "Noodle House"
+  },
+  "ATM CASH WITHDRAWAL": {
+    "category": "Cash & ATM",
+    "name": "Cash withdrawals"
+  },
+  "NON-NETWORK ATM FEE": {
+    "category": "Bank Fees & Interest",
+    "name": "Out-of-network ATM fees"
+  },
+  "ATM OPERATOR FEE": {
+    "category": "Bank Fees & Interest",
+    "name": "ATM operator fees"
+  },
+  "AMAZON PRIME": {
+    "category": "Subscriptions",
+    "name": "Amazon Prime",
+    "where": "Amazon > Prime membership > Manage membership > End membership",
+    "kind": "shopping membership",
+    "billing": "monthly"
+  },
+  "PLANET FITNESS": {
+    "category": "Health & Fitness",
+    "name": "Gym",
+    "where": "Contact your home club or check its membership cancellation options",
+    "kind": "fitness",
+    "billing": "monthly"
+  },
+  "TRADER JOES": {
+    "category": "Groceries",
+    "name": "Trader Joe's"
+  },
+  "MOVIE THEATER": {
+    "category": "Entertainment",
+    "name": "Movies"
+  },
+  "DOORDASH DASHPASS": {
+    "category": "Subscriptions",
+    "name": "DashPass",
+    "where": "DoorDash > Account > Manage DashPass > End subscription",
+    "kind": "delivery pass",
+    "billing": "monthly"
+  },
+  "UBER ONE": {
+    "category": "Subscriptions",
+    "name": "Uber One",
+    "where": "Uber > Account > Uber One > Manage membership > End membership",
+    "kind": "delivery pass",
+    "billing": "monthly"
+  },
+  "AUDIBLE MEMBERSHIP": {
+    "category": "Subscriptions",
+    "name": "Audible",
+    "where": "Audible > Account details > Cancel membership; check unused credits first",
+    "kind": "other",
+    "billing": "monthly"
+  },
+  "TARGET": {
+    "category": "Shopping",
+    "name": "Target"
+  },
+  "STUDENT LOAN ACH": {
+    "category": "Debt Payments",
+    "name": "Student loan"
+  },
+  "AUTO LOAN PAYMENT": {
+    "category": "Car Payment",
+    "name": "Car payment"
+  },
+  "OPENAI *CHATGPT PLUS": {
+    "category": "Subscriptions",
+    "name": "ChatGPT Plus",
+    "where": "ChatGPT > Settings > Account > Manage subscription, or the original billing provider",
+    "kind": "AI",
+    "billing": "monthly"
+  },
+  "UBER *TRIP": {
+    "category": "Rideshare",
+    "name": "Uber rides"
+  },
+  "AUTO INSURANCE ACH": {
+    "category": "Insurance",
+    "name": "Car insurance"
+  },
+  "BURGER BAR": {
+    "category": "Restaurants & Coffee",
+    "name": "Burger Bar"
+  },
+  "ELECTRIC UTILITY BILLPAY": {
+    "category": "Utilities",
+    "name": "Electric"
+  },
+  "OAK BARBER": {
+    "category": "Personal Care",
+    "name": "Haircut"
+  },
+  "PARAMOUNT+": {
+    "category": "Subscriptions",
+    "name": "Paramount+",
+    "where": "Paramount+ > Account > Cancel subscription, or the original billing provider",
+    "kind": "video",
+    "billing": "monthly"
+  },
+  "MOBILE PHONE AUTOPAY": {
+    "category": "Phone & Internet",
+    "name": "Phone"
+  },
+  "HOME INTERNET AUTOPAY": {
+    "category": "Phone & Internet",
+    "name": "Internet"
+  },
+  "TACO SHOP": {
+    "category": "Restaurants & Coffee",
+    "name": "Taco Shop"
+  },
+  "BOWLING NIGHT": {
+    "category": "Entertainment",
+    "name": "Bowling"
+  },
+  "ONLINE PAYMENT ATTEMPT": {
+    "category": "Other",
+    "name": "Returned payment attempt"
+  },
+  "ONLINE PAYMENT REVERSAL": {
+    "category": "Other",
+    "name": "Returned payment reversal"
+  },
+  "OVERDRAFT FEE": {
+    "category": "Bank Fees & Interest",
+    "name": "Overdraft fee"
+  },
+  "INSUFFICIENT FUNDS NSF RETURNED ITEM FEE": {
+    "category": "Bank Fees & Interest",
+    "name": "NSF fee"
+  },
+  "MONTHLY MAINTENANCE FEE": {
+    "category": "Bank Fees & Interest",
+    "name": "Monthly maintenance"
+  }
+}

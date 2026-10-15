@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "insufficient-funds",
+  "description": "A free statement-to-budget skill for Claude",
+  "owner": {"name": "Joe Brunner"},
+  "plugins": [{
+    "name": "insufficient-funds",
+    "description": "Find spending leaks and get a budget spreadsheet from your bank statement.",
+    "source": "./",
+    "category": "productivity",
+    "homepage": "https://github.com/JoeBrunner/insufficient-funds"
+  }]
+}

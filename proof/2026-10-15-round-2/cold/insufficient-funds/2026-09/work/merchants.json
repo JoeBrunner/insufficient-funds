@@ -1,0 +1,434 @@
+{
+  "NETFLIX.COM": {
+    "count": 1,
+    "total": "-17.99",
+    "money_out": "17.99",
+    "lines": [
+      "S1:2"
+    ],
+    "descriptions": [
+      "NETFLIX.COM"
+    ]
+  },
+  "KROGER": {
+    "count": 3,
+    "total": "-250.12",
+    "money_out": "250.12",
+    "lines": [
+      "S1:3",
+      "S1:36",
+      "S1:64"
+    ],
+    "descriptions": [
+      "KROGER #0412"
+    ]
+  },
+  "DOORDASH": {
+    "count": 8,
+    "total": "-212.36",
+    "money_out": "212.36",
+    "lines": [
+      "S1:4",
+      "S1:11",
+      "S1:17",
+      "S1:30",
+      "S1:43",
+      "S1:48",
+      "S1:59",
+      "S1:62"
+    ],
+    "descriptions": [
+      "DOORDASH*TACO BELL",
+      "DOORDASH*PANDA EXPRESS",
+      "DOORDASH*WINGSTOP",
+      "DOORDASH*CHICK-FIL-A",
+      "DOORDASH*SWEETGREEN",
+      "DOORDASH*PAPA JOHNS",
+      "DOORDASH*CHIPOTLE",
+      "DOORDASH*SHAKE SHACK"
+    ]
+  },
+  "STARBUCKS STORE [NUMBER REMOVED]": {
+    "count": 14,
+    "total": "-86.60",
+    "money_out": "86.60",
+    "lines": [
+      "S1:5",
+      "S1:7",
+      "S1:9",
+      "S1:21",
+      "S1:25",
+      "S1:35",
+      "S1:38",
+      "S1:39",
+      "S1:51",
+      "S1:52",
+      "S1:55",
+      "S1:56",
+      "S1:63",
+      "S1:65"
+    ],
+    "descriptions": [
+      "STARBUCKS STORE [number removed]"
+    ]
+  },
+  "SPOTIFY USA": {
+    "count": 1,
+    "total": "-11.99",
+    "money_out": "11.99",
+    "lines": [
+      "S1:6"
+    ],
+    "descriptions": [
+      "SPOTIFY USA"
+    ]
+  },
+  "APPLE.COM/BILL": {
+    "count": 1,
+    "total": "-10.99",
+    "money_out": "10.99",
+    "lines": [
+      "S1:8"
+    ],
+    "descriptions": [
+      "APPLE.COM/BILL"
+    ]
+  },
+  "SHELL OIL": {
+    "count": 4,
+    "total": "-171.26",
+    "money_out": "171.26",
+    "lines": [
+      "S1:10",
+      "S1:27",
+      "S1:44",
+      "S1:60"
+    ],
+    "descriptions": [
+      "SHELL OIL ****2190"
+    ]
+  },
+  "LATE FEE": {
+    "count": 1,
+    "total": "-32.00",
+    "money_out": "32.00",
+    "lines": [
+      "S1:12"
+    ],
+    "descriptions": [
+      "LATE FEE"
+    ]
+  },
+  "PEACOCK 8D3K2 PREMIUM": {
+    "count": 1,
+    "total": "-10.99",
+    "money_out": "10.99",
+    "lines": [
+      "S1:13"
+    ],
+    "descriptions": [
+      "PEACOCK 8D3K2 PREMIUM"
+    ]
+  },
+  "AMAZON MKTPL*ZX81P": {
+    "count": 1,
+    "total": "-38.49",
+    "money_out": "38.49",
+    "lines": [
+      "S1:14"
+    ],
+    "descriptions": [
+      "AMAZON MKTPL*ZX81P"
+    ]
+  },
+  "UBER EATS": {
+    "count": 3,
+    "total": "-78.96",
+    "money_out": "78.96",
+    "lines": [
+      "S1:15",
+      "S1:37",
+      "S1:54"
+    ],
+    "descriptions": [
+      "UBER *EATS PENDING",
+      "UBER *EATS"
+    ]
+  },
+  "THE BURGER JOINT": {
+    "count": 1,
+    "total": "-42.60",
+    "money_out": "42.60",
+    "lines": [
+      "S1:16"
+    ],
+    "descriptions": [
+      "SQ *THE BURGER JOINT"
+    ]
+  },
+  "TRADER JOE S": {
+    "count": 1,
+    "total": "-54.12",
+    "money_out": "54.12",
+    "lines": [
+      "S1:18"
+    ],
+    "descriptions": [
+      "TRADER JOE S #551"
+    ]
+  },
+  "CAPITAL PAYMENT - THANK YOU": {
+    "count": 1,
+    "total": "150.00",
+    "money_out": "0.00",
+    "lines": [
+      "S1:19"
+    ],
+    "descriptions": [
+      "CAPITAL PAYMENT - THANK YOU"
+    ]
+  },
+  "MAX.COM": {
+    "count": 1,
+    "total": "-16.99",
+    "money_out": "16.99",
+    "lines": [
+      "S1:20"
+    ],
+    "descriptions": [
+      "MAX.COM"
+    ]
+  },
+  "BLUE DOOR COFFEE": {
+    "count": 2,
+    "total": "-13.50",
+    "money_out": "13.50",
+    "lines": [
+      "S1:22",
+      "S1:23"
+    ],
+    "descriptions": [
+      "TST* BLUE DOOR COFFEE"
+    ]
+  },
+  "GRUBHUB*FIVEGUYS": {
+    "count": 1,
+    "total": "-29.64",
+    "money_out": "29.64",
+    "lines": [
+      "S1:24"
+    ],
+    "descriptions": [
+      "GRUBHUB*FIVEGUYS"
+    ]
+  },
+  "PARAMOUNT+": {
+    "count": 1,
+    "total": "-12.99",
+    "money_out": "12.99",
+    "lines": [
+      "S1:26"
+    ],
+    "descriptions": [
+      "PARAMOUNT+"
+    ]
+  },
+  "FOREIGN TRANSACTION FEE": {
+    "count": 1,
+    "total": "-1.17",
+    "money_out": "1.17",
+    "lines": [
+      "S1:28"
+    ],
+    "descriptions": [
+      "FOREIGN TRANSACTION FEE"
+    ]
+  },
+  "ALIEXPRESS.COM": {
+    "count": 1,
+    "total": "-38.90",
+    "money_out": "38.90",
+    "lines": [
+      "S1:29"
+    ],
+    "descriptions": [
+      "ALIEXPRESS.COM"
+    ]
+  },
+  "TARGET": {
+    "count": 1,
+    "total": "-64.20",
+    "money_out": "64.20",
+    "lines": [
+      "S1:31"
+    ],
+    "descriptions": [
+      "TARGET ****2345"
+    ]
+  },
+  "AMAZON PRIME*2K4L9": {
+    "count": 1,
+    "total": "-14.99",
+    "money_out": "14.99",
+    "lines": [
+      "S1:32"
+    ],
+    "descriptions": [
+      "AMAZON PRIME*2K4L9"
+    ]
+  },
+  "LYFT *RIDE SAT 11PM": {
+    "count": 1,
+    "total": "-23.40",
+    "money_out": "23.40",
+    "lines": [
+      "S1:33"
+    ],
+    "descriptions": [
+      "LYFT *RIDE SAT 11PM"
+    ]
+  },
+  "CRUNCH FITNESS": {
+    "count": 1,
+    "total": "-29.99",
+    "money_out": "29.99",
+    "lines": [
+      "S1:34"
+    ],
+    "descriptions": [
+      "CRUNCH FITNESS"
+    ]
+  },
+  "AMAZON MKTPL*RT55Q": {
+    "count": 1,
+    "total": "-22.99",
+    "money_out": "22.99",
+    "lines": [
+      "S1:40"
+    ],
+    "descriptions": [
+      "AMAZON MKTPL*RT55Q"
+    ]
+  },
+  "NOOM INC": {
+    "count": 1,
+    "total": "-209.00",
+    "money_out": "209.00",
+    "lines": [
+      "S1:41"
+    ],
+    "descriptions": [
+      "NOOM INC"
+    ]
+  },
+  "CVS/PHARMACY #[NUMBER REMOVED]": {
+    "count": 1,
+    "total": "-17.62",
+    "money_out": "17.62",
+    "lines": [
+      "S1:42"
+    ],
+    "descriptions": [
+      "CVS/PHARMACY #[number removed]"
+    ]
+  },
+  "GOOGLE *GOOGLE ONE": {
+    "count": 1,
+    "total": "-2.99",
+    "money_out": "2.99",
+    "lines": [
+      "S1:45"
+    ],
+    "descriptions": [
+      "GOOGLE *Google One"
+    ]
+  },
+  "OLIVE GARDEN": {
+    "count": 1,
+    "total": "-56.85",
+    "money_out": "56.85",
+    "lines": [
+      "S1:46"
+    ],
+    "descriptions": [
+      "OLIVE GARDEN 1192"
+    ]
+  },
+  "AMAZON MKTPL*RT55Q REFUND": {
+    "count": 1,
+    "total": "22.99",
+    "money_out": "0.00",
+    "lines": [
+      "S1:47"
+    ],
+    "descriptions": [
+      "AMAZON MKTPL*RT55Q REFUND"
+    ]
+  },
+  "UBER *TRIP": {
+    "count": 1,
+    "total": "-18.95",
+    "money_out": "18.95",
+    "lines": [
+      "S1:49"
+    ],
+    "descriptions": [
+      "UBER *TRIP"
+    ]
+  },
+  "DOORDASH DASHPASS": {
+    "count": 1,
+    "total": "-9.99",
+    "money_out": "9.99",
+    "lines": [
+      "S1:50"
+    ],
+    "descriptions": [
+      "DOORDASH DASHPASS"
+    ]
+  },
+  "ALDI [NUMBER REMOVED]": {
+    "count": 1,
+    "total": "-48.66",
+    "money_out": "48.66",
+    "lines": [
+      "S1:53"
+    ],
+    "descriptions": [
+      "ALDI [number removed]"
+    ]
+  },
+  "SEPHORA.COM": {
+    "count": 1,
+    "total": "-58.00",
+    "money_out": "58.00",
+    "lines": [
+      "S1:57"
+    ],
+    "descriptions": [
+      "SEPHORA.COM"
+    ]
+  },
+  "INTEREST CHARGE:PURCHASES": {
+    "count": 1,
+    "total": "-61.47",
+    "money_out": "61.47",
+    "lines": [
+      "S1:58"
+    ],
+    "descriptions": [
+      "INTEREST CHARGE:PURCHASES"
+    ]
+  },
+  "TAQUERIA EL SOL": {
+    "count": 1,
+    "total": "-24.30",
+    "money_out": "24.30",
+    "lines": [
+      "S1:61"
+    ],
+    "descriptions": [
+      "SQ *TAQUERIA EL SOL"
+    ]
+  }
+}

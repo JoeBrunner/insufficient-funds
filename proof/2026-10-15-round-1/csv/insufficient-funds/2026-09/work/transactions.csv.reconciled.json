@@ -1,0 +1,28 @@
+{
+  "sha256": "035bf9e153f3d30a5747a5444fa544023b6b16ee0be75b5cf6da597a9a4bb362",
+  "sources": {
+    "S1": {
+      "count": 98,
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "money_in": "3425.00",
+      "money_out": "3845.35",
+      "net": "-420.35",
+      "source": "S1",
+      "status": "reconciled",
+      "checks": [
+        "money_in",
+        "money_out",
+        "opening + inflows - outflows = closing",
+        "running balances"
+      ],
+      "controls": {
+        "opening": "295.00",
+        "closing": "-125.35",
+        "deposits": "3425.00",
+        "withdrawals": "3845.35"
+      },
+      "note": "Statement endpoints checked."
+    }
+  }
+}

@@ -1,0 +1,1426 @@
+{
+  "schema": 1,
+  "month": "2026-09",
+  "reconciliation": {
+    "sha256": "a934f0a491c6a5670bddebf3e2334795b63a3629f4815eccf101e62d43dc0da5",
+    "sources": {
+      "S1": {
+        "count": 64,
+        "start": "2026-09-02",
+        "end": "2026-09-30",
+        "money_in": "172.99",
+        "money_out": "1795.06",
+        "net": "-1622.07",
+        "source": "S1",
+        "status": "unverified",
+        "checks": [],
+        "controls": {
+          "opening": null,
+          "closing": null,
+          "deposits": null,
+          "withdrawals": null
+        },
+        "note": "Your file has no balances to check against, so these totals come from the file itself. Paste the summary box from your statement (previous balance, payments, purchases, fees, interest, new balance) and I'll check every line against it."
+      }
+    },
+    "liability": {
+      "S1": false
+    }
+  },
+  "statement_totals": {
+    "count": 64,
+    "start": "2026-09-02",
+    "end": "2026-09-30",
+    "money_in": "172.99",
+    "money_out": "1795.06",
+    "net": "-1622.07"
+  },
+  "income": "0.00",
+  "spending": "1772.07",
+  "difference": "-1772.07",
+  "categories": {
+    "Income": "0.00",
+    "Housing": "0.00",
+    "Utilities": "0.00",
+    "Phone & Internet": "0.00",
+    "Insurance": "0.00",
+    "Car Payment": "0.00",
+    "Gas & Transit": "171.26",
+    "Rideshare": "42.35",
+    "Groceries": "352.90",
+    "Delivery & Takeout": "320.96",
+    "Restaurants & Coffee": "223.85",
+    "Subscriptions": "348.90",
+    "Shopping": "141.59",
+    "Health & Fitness": "17.62",
+    "Personal Care": "58.00",
+    "Entertainment": "0.00",
+    "Travel": "0.00",
+    "Kids & Pets": "0.00",
+    "Gifts & Giving": "0.00",
+    "Debt Payments": "0.00",
+    "Bank Fees & Interest": "94.64",
+    "Cash & ATM": "0.00",
+    "Transfers": "-150.00",
+    "Savings": "0.00",
+    "Other": "0.00"
+  },
+  "verification": "unverified",
+  "subscriptions": {
+    "items": [
+      {
+        "merchant": "AMAZON PRIME*2K4L9",
+        "name": "Amazon Prime",
+        "amount": "14.99",
+        "frequency": "monthly-estimate",
+        "monthly": "14.99",
+        "yearly": "179.88",
+        "where": "Amazon > Memberships & Subscriptions > Prime > End membership",
+        "lines": [
+          "S1:32"
+        ]
+      },
+      {
+        "merchant": "APPLE.COM/BILL",
+        "name": "Apple subscription (unknown app)",
+        "amount": "10.99",
+        "frequency": "monthly-estimate",
+        "monthly": "10.99",
+        "yearly": "131.88",
+        "where": "iPhone Settings > your name > Subscriptions (shows which app Apple billed)",
+        "lines": [
+          "S1:8"
+        ]
+      },
+      {
+        "merchant": "CRUNCH FITNESS",
+        "name": "Crunch Fitness",
+        "amount": "29.99",
+        "frequency": "monthly-estimate",
+        "monthly": "29.99",
+        "yearly": "359.88",
+        "where": "Crunch app or your home club (many clubs require in-person or written notice)",
+        "lines": [
+          "S1:34"
+        ]
+      },
+      {
+        "merchant": "DOORDASH DASHPASS",
+        "name": "DoorDash DashPass",
+        "amount": "9.99",
+        "frequency": "monthly-estimate",
+        "monthly": "9.99",
+        "yearly": "119.88",
+        "where": "DoorDash app > Account > DashPass > End subscription",
+        "lines": [
+          "S1:50"
+        ]
+      },
+      {
+        "merchant": "GOOGLE *GOOGLE ONE",
+        "name": "Google One storage",
+        "amount": "2.99",
+        "frequency": "monthly-estimate",
+        "monthly": "2.99",
+        "yearly": "35.88",
+        "where": "Google Play > Payments & subscriptions, or one.google.com > Settings",
+        "lines": [
+          "S1:45"
+        ]
+      },
+      {
+        "merchant": "MAX.COM",
+        "name": "Max",
+        "amount": "16.99",
+        "frequency": "monthly-estimate",
+        "monthly": "16.99",
+        "yearly": "203.88",
+        "where": "max.com > Settings > Subscription > Cancel",
+        "lines": [
+          "S1:20"
+        ]
+      },
+      {
+        "merchant": "NETFLIX.COM",
+        "name": "Netflix",
+        "amount": "17.99",
+        "frequency": "monthly-estimate",
+        "monthly": "17.99",
+        "yearly": "215.88",
+        "where": "netflix.com > Account > Cancel Membership",
+        "lines": [
+          "S1:2"
+        ]
+      },
+      {
+        "merchant": "NOOM INC",
+        "name": "Noom",
+        "amount": "209.00",
+        "frequency": "monthly-estimate",
+        "monthly": "209.00",
+        "yearly": "2508.00",
+        "where": "Noom app > Settings > Subscription, or the store that billed it",
+        "lines": [
+          "S1:41"
+        ]
+      },
+      {
+        "merchant": "PARAMOUNT+",
+        "name": "Paramount+",
+        "amount": "12.99",
+        "frequency": "monthly-estimate",
+        "monthly": "12.99",
+        "yearly": "155.88",
+        "where": "paramountplus.com > Account > Cancel Subscription",
+        "lines": [
+          "S1:26"
+        ]
+      },
+      {
+        "merchant": "PEACOCK 8D3K2 PREMIUM",
+        "name": "Peacock Premium",
+        "amount": "10.99",
+        "frequency": "monthly-estimate",
+        "monthly": "10.99",
+        "yearly": "131.88",
+        "where": "peacocktv.com > Account > Plans & Payment > Cancel",
+        "lines": [
+          "S1:13"
+        ]
+      },
+      {
+        "merchant": "SPOTIFY USA",
+        "name": "Spotify",
+        "amount": "11.99",
+        "frequency": "monthly-estimate",
+        "monthly": "11.99",
+        "yearly": "143.88",
+        "where": "spotify.com > Account > Manage plan > Cancel",
+        "lines": [
+          "S1:6"
+        ]
+      }
+    ],
+    "count": 11,
+    "monthly": "348.90",
+    "yearly": "4186.80"
+  },
+  "recurring": [
+    {
+      "merchant": "AMAZON PRIME*2K4L9",
+      "name": "Amazon Prime",
+      "count": 1,
+      "total": "14.99",
+      "per_week": "3.50",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:32"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "APPLE.COM/BILL",
+      "name": "Apple subscription (unknown app)",
+      "count": 1,
+      "total": "10.99",
+      "per_week": "2.56",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:8"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "CRUNCH FITNESS",
+      "name": "Crunch Fitness",
+      "count": 1,
+      "total": "29.99",
+      "per_week": "7.00",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:34"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "DOORDASH DASHPASS",
+      "name": "DoorDash DashPass",
+      "count": 1,
+      "total": "9.99",
+      "per_week": "2.33",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:50"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "GOOGLE *GOOGLE ONE",
+      "name": "Google One storage",
+      "count": 1,
+      "total": "2.99",
+      "per_week": "0.70",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:45"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "MAX.COM",
+      "name": "Max",
+      "count": 1,
+      "total": "16.99",
+      "per_week": "3.96",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:20"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "NETFLIX.COM",
+      "name": "Netflix",
+      "count": 1,
+      "total": "17.99",
+      "per_week": "4.20",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:2"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "NOOM INC",
+      "name": "Noom",
+      "count": 1,
+      "total": "209.00",
+      "per_week": "48.77",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:41"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "PARAMOUNT+",
+      "name": "Paramount+",
+      "count": 1,
+      "total": "12.99",
+      "per_week": "3.03",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:26"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "PEACOCK 8D3K2 PREMIUM",
+      "name": "Peacock Premium",
+      "count": 1,
+      "total": "10.99",
+      "per_week": "2.56",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:13"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    },
+    {
+      "merchant": "SPOTIFY USA",
+      "name": "Spotify",
+      "count": 1,
+      "total": "11.99",
+      "per_week": "2.80",
+      "count_per_week": "0.23",
+      "lines": [
+        "S1:6"
+      ],
+      "basis": "subscription candidate; confirm plan and billing interval",
+      "gaps_days": []
+    }
+  ],
+  "possible_doubles": [
+    {
+      "merchant": "BLUE DOOR COFFEE",
+      "amount": "6.75",
+      "lines": [
+        "S1:22",
+        "S1:23"
+      ],
+      "label": "check this",
+      "note": "Could be two legitimate purchases. No refund assumed."
+    },
+    {
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "amount": "5.95",
+      "lines": [
+        "S1:35",
+        "S1:39"
+      ],
+      "label": "check this",
+      "note": "Could be two legitimate purchases. No refund assumed."
+    },
+    {
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "amount": "5.45",
+      "lines": [
+        "S1:51",
+        "S1:52"
+      ],
+      "label": "check this",
+      "note": "Could be two legitimate purchases. No refund assumed."
+    },
+    {
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "amount": "5.95",
+      "lines": [
+        "S1:55",
+        "S1:56"
+      ],
+      "label": "check this",
+      "note": "Could be two legitimate purchases. No refund assumed."
+    }
+  ],
+  "fees": {
+    "count": 3,
+    "total": "94.64",
+    "per_week": "22.08",
+    "count_per_week": "0.70",
+    "lines": [
+      "S1:12",
+      "S1:28",
+      "S1:58"
+    ]
+  },
+  "delivery": {
+    "count": 12,
+    "total": "320.96",
+    "per_week": "74.89",
+    "count_per_week": "2.80",
+    "lines": [
+      "S1:4",
+      "S1:11",
+      "S1:15",
+      "S1:17",
+      "S1:24",
+      "S1:30",
+      "S1:37",
+      "S1:43",
+      "S1:48",
+      "S1:54",
+      "S1:59",
+      "S1:62"
+    ],
+    "visible_fees_tips": {
+      "count": 0,
+      "total": "0.00",
+      "per_week": "0.00",
+      "count_per_week": "0.00",
+      "lines": []
+    },
+    "note": "Fees/tips inside a combined charge are not visible."
+  },
+  "habit_leaks": [
+    {
+      "habit": "delivery",
+      "what": "Delivery, 12 orders",
+      "category": "Delivery & Takeout",
+      "count": 12,
+      "total": "320.96",
+      "per_week": "74.89",
+      "count_per_week": "2.80",
+      "lines": [
+        "S1:4",
+        "S1:11",
+        "S1:15",
+        "S1:17",
+        "S1:24",
+        "S1:30",
+        "S1:37",
+        "S1:43",
+        "S1:48",
+        "S1:54",
+        "S1:59",
+        "S1:62"
+      ],
+      "monthly": "160.48",
+      "action": "Order half as often; keep easy meals at home."
+    },
+    {
+      "habit": "merchant:STARBUCKS STORE [NUMBER REMOVED]",
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "what": "Starbucks, 14 visits",
+      "category": "Restaurants & Coffee",
+      "count": 14,
+      "total": "86.60",
+      "per_week": "20.21",
+      "count_per_week": "3.27",
+      "lines": [
+        "S1:5",
+        "S1:7",
+        "S1:9",
+        "S1:21",
+        "S1:25",
+        "S1:35",
+        "S1:38",
+        "S1:39",
+        "S1:51",
+        "S1:52",
+        "S1:55",
+        "S1:56",
+        "S1:63",
+        "S1:65"
+      ],
+      "monthly": "43.30",
+      "action": "Make half as many of these small purchases."
+    }
+  ],
+  "small_habits": [
+    {
+      "habit": "merchant:STARBUCKS STORE [NUMBER REMOVED]",
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "what": "Starbucks, 14 visits",
+      "category": "Restaurants & Coffee",
+      "count": 14,
+      "total": "86.60",
+      "per_week": "20.21",
+      "count_per_week": "3.27",
+      "lines": [
+        "S1:5",
+        "S1:7",
+        "S1:9",
+        "S1:21",
+        "S1:25",
+        "S1:35",
+        "S1:38",
+        "S1:39",
+        "S1:51",
+        "S1:52",
+        "S1:55",
+        "S1:56",
+        "S1:63",
+        "S1:65"
+      ],
+      "monthly": "43.30",
+      "action": "Make half as many of these small purchases."
+    }
+  ],
+  "transactions": [
+    {
+      "id": "S1:2",
+      "date": "2026-09-02",
+      "description": "NETFLIX.COM",
+      "amount": "-17.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 2,
+      "merchant": "NETFLIX.COM",
+      "category": "Subscriptions",
+      "name": "Netflix",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:3",
+      "date": "2026-09-02",
+      "description": "KROGER #0412",
+      "amount": "-86.31",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 3,
+      "merchant": "KROGER",
+      "category": "Groceries",
+      "name": "Kroger",
+      "flags": []
+    },
+    {
+      "id": "S1:4",
+      "date": "2026-09-03",
+      "description": "DOORDASH*TACO BELL",
+      "amount": "-18.42",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 4,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:5",
+      "date": "2026-09-03",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.45",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 5,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:6",
+      "date": "2026-09-04",
+      "description": "SPOTIFY USA",
+      "amount": "-11.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 6,
+      "merchant": "SPOTIFY USA",
+      "category": "Subscriptions",
+      "name": "Spotify",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:7",
+      "date": "2026-09-04",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-7.15",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 7,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:8",
+      "date": "2026-09-05",
+      "description": "APPLE.COM/BILL",
+      "amount": "-10.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 8,
+      "merchant": "APPLE.COM/BILL",
+      "category": "Subscriptions",
+      "name": "Apple subscription (unknown app)",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:9",
+      "date": "2026-09-05",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 9,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:10",
+      "date": "2026-09-05",
+      "description": "SHELL OIL ****2190",
+      "amount": "-44.18",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 10,
+      "merchant": "SHELL OIL",
+      "category": "Gas & Transit",
+      "name": "Shell gas",
+      "flags": []
+    },
+    {
+      "id": "S1:11",
+      "date": "2026-09-06",
+      "description": "DOORDASH*PANDA EXPRESS",
+      "amount": "-24.87",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 11,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:12",
+      "date": "2026-09-06",
+      "description": "LATE FEE",
+      "amount": "-32.00",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 12,
+      "merchant": "LATE FEE",
+      "category": "Bank Fees & Interest",
+      "name": "Card late fee",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:13",
+      "date": "2026-09-07",
+      "description": "PEACOCK 8D3K2 PREMIUM",
+      "amount": "-10.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 13,
+      "merchant": "PEACOCK 8D3K2 PREMIUM",
+      "category": "Subscriptions",
+      "name": "Peacock Premium",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:14",
+      "date": "2026-09-07",
+      "description": "AMAZON MKTPL*ZX81P",
+      "amount": "-38.49",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 14,
+      "merchant": "AMAZON MKTPL*ZX81P",
+      "category": "Shopping",
+      "name": "Amazon order",
+      "flags": []
+    },
+    {
+      "id": "S1:15",
+      "date": "2026-09-08",
+      "description": "UBER *EATS PENDING",
+      "amount": "-31.15",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 15,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:16",
+      "date": "2026-09-08",
+      "description": "SQ *THE BURGER JOINT",
+      "amount": "-42.60",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 16,
+      "merchant": "THE BURGER JOINT",
+      "category": "Restaurants & Coffee",
+      "name": "The Burger Joint",
+      "flags": []
+    },
+    {
+      "id": "S1:17",
+      "date": "2026-09-09",
+      "description": "DOORDASH*WINGSTOP",
+      "amount": "-36.20",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 17,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:18",
+      "date": "2026-09-09",
+      "description": "TRADER JOE S #551",
+      "amount": "-54.12",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 18,
+      "merchant": "TRADER JOE S",
+      "category": "Groceries",
+      "name": "Trader Joe's",
+      "flags": []
+    },
+    {
+      "id": "S1:19",
+      "date": "2026-09-09",
+      "description": "CAPITAL PAYMENT - THANK YOU",
+      "amount": "150.00",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 19,
+      "merchant": "CAPITAL PAYMENT - THANK YOU",
+      "category": "Transfers",
+      "name": "Card payment",
+      "flags": []
+    },
+    {
+      "id": "S1:20",
+      "date": "2026-09-10",
+      "description": "MAX.COM",
+      "amount": "-16.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 20,
+      "merchant": "MAX.COM",
+      "category": "Subscriptions",
+      "name": "Max",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:21",
+      "date": "2026-09-10",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 21,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:22",
+      "date": "2026-09-11",
+      "description": "TST* BLUE DOOR COFFEE",
+      "amount": "-6.75",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 22,
+      "merchant": "BLUE DOOR COFFEE",
+      "category": "Restaurants & Coffee",
+      "name": "Blue Door Coffee",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:23",
+      "date": "2026-09-11",
+      "description": "TST* BLUE DOOR COFFEE",
+      "amount": "-6.75",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 23,
+      "merchant": "BLUE DOOR COFFEE",
+      "category": "Restaurants & Coffee",
+      "name": "Blue Door Coffee",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:24",
+      "date": "2026-09-12",
+      "description": "GRUBHUB*FIVEGUYS",
+      "amount": "-29.64",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 24,
+      "merchant": "GRUBHUB*FIVEGUYS",
+      "category": "Delivery & Takeout",
+      "name": "Grubhub",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:25",
+      "date": "2026-09-12",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-7.15",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 25,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:26",
+      "date": "2026-09-13",
+      "description": "PARAMOUNT+",
+      "amount": "-12.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 26,
+      "merchant": "PARAMOUNT+",
+      "category": "Subscriptions",
+      "name": "Paramount+",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:27",
+      "date": "2026-09-13",
+      "description": "SHELL OIL ****2190",
+      "amount": "-39.70",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 27,
+      "merchant": "SHELL OIL",
+      "category": "Gas & Transit",
+      "name": "Shell gas",
+      "flags": []
+    },
+    {
+      "id": "S1:28",
+      "date": "2026-09-13",
+      "description": "FOREIGN TRANSACTION FEE",
+      "amount": "-1.17",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 28,
+      "merchant": "FOREIGN TRANSACTION FEE",
+      "category": "Bank Fees & Interest",
+      "name": "Foreign transaction fee",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:29",
+      "date": "2026-09-13",
+      "description": "ALIEXPRESS.COM",
+      "amount": "-38.90",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 29,
+      "merchant": "ALIEXPRESS.COM",
+      "category": "Shopping",
+      "name": "AliExpress",
+      "flags": []
+    },
+    {
+      "id": "S1:30",
+      "date": "2026-09-14",
+      "description": "DOORDASH*CHICK-FIL-A",
+      "amount": "-21.08",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 30,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:31",
+      "date": "2026-09-14",
+      "description": "TARGET ****2345",
+      "amount": "-64.20",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 31,
+      "merchant": "TARGET",
+      "category": "Shopping",
+      "name": "Target",
+      "flags": []
+    },
+    {
+      "id": "S1:32",
+      "date": "2026-09-15",
+      "description": "AMAZON PRIME*2K4L9",
+      "amount": "-14.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 32,
+      "merchant": "AMAZON PRIME*2K4L9",
+      "category": "Subscriptions",
+      "name": "Amazon Prime",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:33",
+      "date": "2026-09-15",
+      "description": "LYFT *RIDE SAT 11PM",
+      "amount": "-23.40",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 33,
+      "merchant": "LYFT *RIDE SAT 11PM",
+      "category": "Rideshare",
+      "name": "Lyft",
+      "flags": []
+    },
+    {
+      "id": "S1:34",
+      "date": "2026-09-16",
+      "description": "CRUNCH FITNESS",
+      "amount": "-29.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 34,
+      "merchant": "CRUNCH FITNESS",
+      "category": "Subscriptions",
+      "name": "Crunch Fitness",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:35",
+      "date": "2026-09-16",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 35,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:36",
+      "date": "2026-09-16",
+      "description": "KROGER #0412",
+      "amount": "-92.77",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 36,
+      "merchant": "KROGER",
+      "category": "Groceries",
+      "name": "Kroger",
+      "flags": []
+    },
+    {
+      "id": "S1:37",
+      "date": "2026-09-17",
+      "description": "UBER *EATS",
+      "amount": "-27.93",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 37,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:38",
+      "date": "2026-09-17",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-7.15",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 38,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:39",
+      "date": "2026-09-18",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 39,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:40",
+      "date": "2026-09-18",
+      "description": "AMAZON MKTPL*RT55Q",
+      "amount": "-22.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 40,
+      "merchant": "AMAZON MKTPL*RT55Q",
+      "category": "Shopping",
+      "name": "Amazon order (refunded)",
+      "flags": []
+    },
+    {
+      "id": "S1:41",
+      "date": "2026-09-19",
+      "description": "NOOM INC",
+      "amount": "-209.00",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 41,
+      "merchant": "NOOM INC",
+      "category": "Subscriptions",
+      "name": "Noom",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:42",
+      "date": "2026-09-19",
+      "description": "CVS/PHARMACY #[number removed]",
+      "amount": "-17.62",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 42,
+      "merchant": "CVS/PHARMACY #[NUMBER REMOVED]",
+      "category": "Health & Fitness",
+      "name": "CVS Pharmacy",
+      "flags": []
+    },
+    {
+      "id": "S1:43",
+      "date": "2026-09-20",
+      "description": "DOORDASH*SWEETGREEN",
+      "amount": "-22.51",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 43,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:44",
+      "date": "2026-09-20",
+      "description": "SHELL OIL ****2190",
+      "amount": "-46.05",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 44,
+      "merchant": "SHELL OIL",
+      "category": "Gas & Transit",
+      "name": "Shell gas",
+      "flags": []
+    },
+    {
+      "id": "S1:45",
+      "date": "2026-09-21",
+      "description": "GOOGLE *Google One",
+      "amount": "-2.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 45,
+      "merchant": "GOOGLE *GOOGLE ONE",
+      "category": "Subscriptions",
+      "name": "Google One storage",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:46",
+      "date": "2026-09-21",
+      "description": "OLIVE GARDEN 1192",
+      "amount": "-56.85",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 46,
+      "merchant": "OLIVE GARDEN",
+      "category": "Restaurants & Coffee",
+      "name": "Olive Garden",
+      "flags": []
+    },
+    {
+      "id": "S1:47",
+      "date": "2026-09-21",
+      "description": "AMAZON MKTPL*RT55Q REFUND",
+      "amount": "22.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 47,
+      "merchant": "AMAZON MKTPL*RT55Q REFUND",
+      "category": "Shopping",
+      "name": "Amazon refund",
+      "flags": []
+    },
+    {
+      "id": "S1:48",
+      "date": "2026-09-22",
+      "description": "DOORDASH*PAPA JOHNS",
+      "amount": "-33.76",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 48,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:49",
+      "date": "2026-09-22",
+      "description": "UBER *TRIP",
+      "amount": "-18.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 49,
+      "merchant": "UBER *TRIP",
+      "category": "Rideshare",
+      "name": "Uber ride",
+      "flags": []
+    },
+    {
+      "id": "S1:50",
+      "date": "2026-09-23",
+      "description": "DOORDASH DASHPASS",
+      "amount": "-9.99",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 50,
+      "merchant": "DOORDASH DASHPASS",
+      "category": "Subscriptions",
+      "name": "DoorDash DashPass",
+      "flags": [
+        "subscription"
+      ]
+    },
+    {
+      "id": "S1:51",
+      "date": "2026-09-23",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.45",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 51,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:52",
+      "date": "2026-09-24",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.45",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 52,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:53",
+      "date": "2026-09-24",
+      "description": "ALDI [number removed]",
+      "amount": "-48.66",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 53,
+      "merchant": "ALDI [NUMBER REMOVED]",
+      "category": "Groceries",
+      "name": "Aldi",
+      "flags": []
+    },
+    {
+      "id": "S1:54",
+      "date": "2026-09-25",
+      "description": "UBER *EATS",
+      "amount": "-19.88",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 54,
+      "merchant": "UBER EATS",
+      "category": "Delivery & Takeout",
+      "name": "Uber Eats",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:55",
+      "date": "2026-09-25",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 55,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:56",
+      "date": "2026-09-26",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 56,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": [
+        "possible double charge"
+      ]
+    },
+    {
+      "id": "S1:57",
+      "date": "2026-09-26",
+      "description": "SEPHORA.COM",
+      "amount": "-58.00",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 57,
+      "merchant": "SEPHORA.COM",
+      "category": "Personal Care",
+      "name": "Sephora",
+      "flags": []
+    },
+    {
+      "id": "S1:58",
+      "date": "2026-09-26",
+      "description": "INTEREST CHARGE:PURCHASES",
+      "amount": "-61.47",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 58,
+      "merchant": "INTEREST CHARGE:PURCHASES",
+      "category": "Bank Fees & Interest",
+      "name": "Purchase interest",
+      "flags": [
+        "fee"
+      ]
+    },
+    {
+      "id": "S1:59",
+      "date": "2026-09-27",
+      "description": "DOORDASH*CHIPOTLE",
+      "amount": "-25.40",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 59,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:60",
+      "date": "2026-09-28",
+      "description": "SHELL OIL ****2190",
+      "amount": "-41.33",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 60,
+      "merchant": "SHELL OIL",
+      "category": "Gas & Transit",
+      "name": "Shell gas",
+      "flags": []
+    },
+    {
+      "id": "S1:61",
+      "date": "2026-09-28",
+      "description": "SQ *TAQUERIA EL SOL",
+      "amount": "-24.30",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 61,
+      "merchant": "TAQUERIA EL SOL",
+      "category": "Restaurants & Coffee",
+      "name": "Taqueria El Sol",
+      "flags": []
+    },
+    {
+      "id": "S1:62",
+      "date": "2026-09-29",
+      "description": "DOORDASH*SHAKE SHACK",
+      "amount": "-30.12",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 62,
+      "merchant": "DOORDASH",
+      "category": "Delivery & Takeout",
+      "name": "DoorDash orders",
+      "flags": [
+        "delivery"
+      ]
+    },
+    {
+      "id": "S1:63",
+      "date": "2026-09-30",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-5.95",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 63,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    },
+    {
+      "id": "S1:64",
+      "date": "2026-09-30",
+      "description": "KROGER #0412",
+      "amount": "-71.04",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 64,
+      "merchant": "KROGER",
+      "category": "Groceries",
+      "name": "Kroger",
+      "flags": []
+    },
+    {
+      "id": "S1:65",
+      "date": "2026-09-30",
+      "description": "STARBUCKS STORE [number removed]",
+      "amount": "-7.15",
+      "balance": null,
+      "source_file": "S1",
+      "source_row": 65,
+      "merchant": "STARBUCKS STORE [NUMBER REMOVED]",
+      "category": "Restaurants & Coffee",
+      "name": "Starbucks",
+      "flags": []
+    }
+  ],
+  "notes": [
+    "Transfers and card payments excluded; purchase refunds reduce their spending category.",
+    "Income means deposits Claude marked as regular income, not every positive entry.",
+    "A single month suggests subscriptions; it does not prove a trial, unused service, or billing interval."
+  ]
+}
